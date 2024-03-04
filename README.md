@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# FITFOCUS
 
-`CURSO`
+`CURSO:` Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA:` Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio
 
-`SEMESTRE`
+`SEMESTRE:` Eixo 3 [2024]
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto se trata da criação de um aplicativo que facilite o acesso do público a receitas e conhecimentos do mundo nutritivo voltados para aprimorar a qualidade de vida.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Enzo Bezerra Moura
+* Ingrid da Rosa Santana de Barros
+* Karina das Graças Barbosa
+* Lorena Lopes Pimenta
+* Rafael Gonçalves Vitolo
+* Samuel Magalhaes Resende Ferreira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Wesley Dias Maciel
 
 ## Instruções de utilização
 
