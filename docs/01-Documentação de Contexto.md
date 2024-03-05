@@ -1,46 +1,33 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A insegurança alimentar é uma realidade alarmante que afeta milhões de famílias de baixa renda em todo o Brasil. Em meio à luta diária pela sobrevivência, essas famílias enfrentam desafios significativos para garantir o acesso a uma alimentação adequada e nutritiva. A falta de recursos financeiros, aliada à escassez de opções acessíveis de alimentos de qualidade, cria uma situação de vulnerabilidade que compromete não apenas a saúde física, mas também o bem-estar emocional e social dessas famílias.
+
+Segundo a OMS - Organização Mundial da Saúde um dos mais graves problemas do mundo atual é a obesidade. No Brasil essa doença aumentou 72% nos últimos 13 anos e a estimativa é de que no ano de 2025 serão 2,3 bilhões de adultos ao redor do mundo acima do peso. A rotina acelerada e o ritmo intenso de trabalho das pessoas na nossa sociedade atual contribuem para que elas não tenham tempo de se dedicar a uma alimentação balanceada e nutritiva. Como resultado, os ultraprocessados da indústria alimentícia estão presentes em abundância na nossa alimentação.No entanto, o consumo excessivo desses alimentos tem sido associado a uma série de problemas de saúde, incluindo desnutrição, obesidade e níveis elevados de colesterol.
+
+Nosso projeto deseja facilitar a conexão com o público, fazendo com que mais e mais pessoas possam ter acesso a dicas e informações que resultem em uma melhora na qualidade de vida e rotina nutricional de cada um.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Pessoas de baixa renda frequentemente enfrentam o desafio de encontrar informações nutritivas que se adequem ao seu orçamento limitado. As opções de alimentos saudáveis muitas vezes podem ser mais caras. Além disso, a falta de acesso a recursos e orientação nutricional pode dificultar a adoção de hábitos alimentares saudáveis.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do projeto Fit Focus é a criação de um aplicativo que facilite o acesso do público a receitas e conhecimentos do mundo nutritivo voltados para aprimorar a qualidade de vida.Como objetivos específicos, podemos ressaltar:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+* Fornecer informações detalhadas sobre os alimentos, destacando seus benefícios para a saúde.
+* Adicionar receitas mais saudáveis à aplicação, incluindo sugestões de receitas adequadas para pessoas com intolerâncias ou restrições alimentares.
+* Inserir um medidor de Índice de massa corporal (IMC) para auxiliar os usuários a monitorar sua composição corporal.
+* Informar ao usuário quais alimentos devem ser evitados em uma alimentação saudável.
+* Obter informações sobre exercícios físicos básicos.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A criação do aplicativo Fit Focus se baseia na crescente demanda por ferramentas que promovam um estilo de vida saudável e equilibrado. Nos dias de hoje, com o aumento das preocupações com a saúde e o bem-estar, é fundamental fornecer recursos acessíveis e informativos para auxiliar as pessoas em suas jornadas de cuidado com o corpo e a mente.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo desta aplicação seria principalmente famílias de baixa renda que buscam opções acessíveis e nutritivas de alimentos dentro do seu orçamento, preocupadas com sua saúde e as que desejam evitar problemas relacionados à má alimentação como a obesidade, mas enfrentam dificuldades devido à falta de conhecimento ou acesso a recursos necessários.	
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
