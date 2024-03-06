@@ -27,6 +27,9 @@ Persona 5 - Educador Físico
 
 ![educador fisico](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/4f1fc83a-ce2a-4e59-9623-b13ea56bf9b5)
 
+Persona 6 - Idealizador do app fit focus 
+
+![criador fitfocus](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/e086485c-107a-4f01-bec1-6cdc39b3eb4c)
 
 
 ## Histórias de Usuários
