@@ -8,23 +8,27 @@ Nosso projeto deseja facilitar a conexão do público com o mundo fitness, enfat
 
 ## Problema
 
-No contexto atual, pessoas de baixa renda frequentemente enfrentam o desafio de encontrar informações nutritivas que se adequem ao seu orçamento limitado. As opções de alimentos saudáveis muitas vezes podem ser mais caras. Além disso, a falta de acesso a recursos e orientação nutricional pode dificultar a adoção de hábitos alimentares saudáveis.
+O problema central que motiva a criação do Fit Focus é a falta de acesso a informações confiáveis e personalizadas sobre nutrição, aliada à dificuldade enfrentada por muitas pessoas em adotar e manter hábitos alimentares saudáveis. Esta lacuna resulta em escolhas alimentares inadequadas, falta de orientação especializada e dificuldade em alcançar metas de saúde e bem-estar.
+
+No contexto atual, pessoas de baixa renda frequentemente enfrentam o desafio de encontrarem informações nutritivas que se adequem ao seu orçamento limitado. As opções de alimentos saudáveis muitas vezes podem ser mais caras. Além disso, a falta de acesso a recursos e orientação nutricional pode dificultar a adoção de hábitos alimentares saudáveis.
 
 ## Objetivos
 
-O objetivo geral do projeto Fit Focus é o desenvolvimento de um software eficiente e intuitivo que solucione o desafio de encontrar informações sobre o mundo nutritivo de maneira acessível, adequadas a orçamentos limitados, oferecendo um banco de dados abrangente contendo informações detalhadas sobre saúde, bem estar e vida fitness.
+O projeto Fit Focus tem como objetivo geral o desenvolvimento de um software eficiente e intuitivo que forneça informações acessíveis e abrangentes sobre nutrição, saúde, bem-estar e condicionamento físico, especialmente adequadas a orçamentos limitados. Para alcançar esse objetivo, os objetivos específicos incluem:
+
 
 Como objetivos específicos, podemos ressaltar:
 
-* Inclusão de	receitas saudáveis com sugestões para pessoas com intolerâncias ou restrições alimentares.
-*	Informações de alimentos que devem ser evitados em uma rotina saudável.
-*	Informações sobre exercícios físicos básicos.
-*	Conteúdo informativo sobre como cultivar uma horta caseira de maneira acessível, para obtenção de alimentos frescos.
-* Tabela nutricional com dados sobre os macronutrientes dos alimentos.
+*  Inclusão de receitas saudáveis com sugestões para pessoas com intolerâncias ou restrições alimentares: O software irá oferecer uma variedade de receitas saudáveis que levem em consideração diferentes necessidades alimentares, como intolerâncias ou restrições específicas.
+*	Informações de alimentos que devem ser evitados em uma rotina saudável: O software fornecerá orientações sobre alimentos que devem ser evitados em uma dieta saudável, ajudando os usuários a fazer escolhas alimentares mais conscientes.
+*	 Conteúdo informativo sobre como cultivar uma horta caseira de maneira acessível, para obtenção de alimentos frescos: O software oferecerá orientações e dicas práticas para o cultivo de uma horta caseira, possibilitando que os usuários tenham acesso a alimentos frescos e saudáveis em seu próprio espaço.
+*  Tabela nutricional com dados sobre os macronutrientes dos alimentos: O software disponibilizará uma tabela nutricional abrangente contendo informações detalhadas sobre os macronutrientes presentes nos alimentos, auxiliando os usuários a entender melhor o valor nutricional de suas escolhas alimentares.
 
 ## Justificativa
 
-O software Fit Focus visa preencher uma lacuna no mercado, oferecendo uma ferramenta acessível e informativa para ajudar as pessoas a adotarem hábitos alimentares e estilo de vida mais saudáveis. Diante do aumento das preocupações com a saúde e o bem-estar, é essencial fornecer recursos que auxiliem as pessoas em suas jornadas de cuidado com o corpo e a mente.
+O desenvolvimento do aplicativo Fit Focus baseia-se na necessidade crescente de uma abordagem holística e personalizada para promover a saúde e bem-estar através da alimentação. Atualmente, muitas pessoas enfrentam desafios significativos ao tentar adotar e manter hábitos alimentares saudáveis, devido à falta de orientação personalizada e acesso a informações confiáveis sobre nutrição e até mesmo encontrar essas informações de maneira acessível.
+
+Diante do aumento das preocupações com a saúde e o bem-estar, é essencial fornecer recursos que auxiliem as pessoas em suas jornadas de cuidado com o corpo e a mente.
 
 ## Público-Alvo
 
