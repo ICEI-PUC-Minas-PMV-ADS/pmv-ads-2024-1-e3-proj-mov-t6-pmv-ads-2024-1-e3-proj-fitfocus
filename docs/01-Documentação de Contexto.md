@@ -4,7 +4,7 @@ Ter uma horta em casa é uma atividade que não apenas pode ser divertida e educ
 
 Por outro lado, a mudança climática é um fenômeno global que tem impactado significativamente o Brasil, resultando em uma série de consequências diretas e indiretas, incluindo o aumento dos preços dos alimentos. As alterações nos padrões climáticos têm afetado a produção agrícola do país, causando períodos de seca prolongada, enchentes, ondas de calor e eventos climáticos extremos. Essas condições adversas têm prejudicado a produção de culturas-chave, como grãos, frutas e verduras, levando a uma diminuição na oferta de alimentos e, consequentemente, a um aumento nos preços. Além disso, a degradação ambiental resultante da mudança climática também impacta os custos de produção agrícola, aumentando a necessidade de investimentos em práticas de mitigação e adaptação. Como resultado, os consumidores brasileiros enfrentam a realidade de preços mais altos nos supermercados, dificultando o acesso a uma alimentação adequada e nutritiva, especialmente para as famílias de baixa renda.
 
-Nosso projeto deseja facilitar a conexão do público com o mundo fitness, enfatizando a importãncia da alimentação saudável na rotina, trazendo isso de maneira acessível visando a famílias de baixa renda fazendo com que cada vez mais pessoas possam ter acesso a dicas e informações trazendo a mehoria da qualidade de vida dessas pessoas.
+Nosso projeto deseja facilitar a conexão do público com o mundo fitness, enfatizando a importãncia da alimentação saudável na rotina, trazendo isso de maneira acessível visando a famílias de baixa renda, fazendo com que cada vez mais pessoas possam ter acesso a dicas e informações nutricionais trazendo a melhoria da qualidade de vida.
 
 ## Problema
 
@@ -30,9 +30,9 @@ O software Fit Focus visa preencher uma lacuna no mercado, oferecendo uma ferram
 
 O aplicativo destina-se aos seguintes grupos:
 
-* Famílias de baixa renda que buscam opções acessíveis e nutritivas de alimentos dentro do seu orçamento.
-* Profissionais da saúde, como Nutricionistas e Educadores Físicos que procuram por um conteúdo preciso sobre nutrição e saúde para recomendar aos seus pacientes.
-* Pessoas iniciantes na vida fitness que desejam melhorar seu condicionamento físico e iniciar uma vida mais saudável.
+* Famílias de baixa renda que buscam opções acessíveis e nutritivas de alimentos para incluir na dieta que caibam dentro do seu orçamento limitado.
+* Profissionais da saúde, como Nutricionistas e Educadores Físicos que procuram por um conteúdo preciso sobre nutrição e saúde para recomendar aos seus pacientes e acompanhar o progresso em suas metas.
+* Pessoas iniciantes na vida fitness que desejam melhorar seu condicionamento físico e iniciar uma rotina mais saudável, abandonando hábitos sedentários.
 * Entusiastas a jardinagem que desejam iniciar o cultivo da sua própria horta em casa para ter acesso a alimentos frescos e saudáveis, de maneira econômica.
 
 
