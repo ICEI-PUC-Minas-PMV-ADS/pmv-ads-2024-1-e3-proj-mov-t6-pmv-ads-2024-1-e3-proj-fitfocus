@@ -4,26 +4,26 @@ Para a especificação do projeto, foram determinadas as personas e suas histór
 
 ## Personas
 
- Persona 1
+ Persona 1 - Mãe com recursos financeiros limitados 
 
  ![mae](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/7c8e9295-b201-4d3c-aac2-439634468fa7)
 
 
-Persona 2
+Persona 2 - Entusiasta de jardinagem
 
 ![jardineiro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/abaeaa17-0116-4bae-8ff4-137a09d1b603)
 
 
-Persona 3
+Persona 3 -  Iniciante na vida fitness
 
 ![atleta iniciante](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/26e67348-6bec-4f8b-be3d-416a1932dd36)
 
 
-Persona 4
+Persona 4 - Nutricionista
 
 ![nutricionista](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/d2f68f9d-a00a-4701-8cbe-0fb5593f6560)
 
-Persona 5
+Persona 5 - Educador Físico
 
 ![educador fisico](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/4f1fc83a-ce2a-4e59-9623-b13ea56bf9b5)
 
