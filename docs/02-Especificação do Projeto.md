@@ -38,17 +38,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Maria  | precisa de acessar dicas sobre alimentação saudável acessíveis | para aprimimorar a saúde dela e de sua filha 
+| Eliseu | precisa de informações sobre como cuidar de maneira correta da sua horta | para iniciar seu jardim em casa |
+| Rafael | precisa de encontrar exercicios fisicos básicos | para melhorar seu condicionamento físico 
+| Lais | precisa de uma ferramenta útil e atualizada sobre nutrição | para recomendar a seus pacientes
+| André | precisa adicionar múltiplas informações sobre saúde e nutrição | para gerenciar com o eficiência a aplicação Fit Focus
+| Felipe | precisa se manter atualizado sobre o valor nutricional dos alimentos | para ajudar seus clientes a alcançar suas metas fitness
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
