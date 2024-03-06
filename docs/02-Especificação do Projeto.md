@@ -38,9 +38,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Maria  | precisa de acessar dicas sobre alimentação saudável acessíveis | para aprimimorar a saúde dela e de sua filha 
+| Maria  | precisa de acessar dicas sobre alimentação saudável acessíveis | para aprimmorar a saúde dela e de sua filha 
 | Eliseu | precisa de informações sobre como cuidar de maneira correta da sua horta | para iniciar seu jardim em casa |
-| Rafael | precisa de encontrar exercicios fisicos básicos | para melhorar seu condicionamento físico 
+| Rafael | precisa de encontrar exercicios físicos básicos | para melhorar seu condicionamento físico 
 | Lais | precisa de uma ferramenta útil e atualizada sobre nutrição | para recomendar a seus pacientes
 | André | precisa adicionar múltiplas informações sobre saúde e nutrição | para gerenciar com o eficiência a aplicação Fit Focus
 | Felipe | precisa se manter atualizado sobre o valor nutricional dos alimentos | para ajudar seus clientes a alcançar suas metas fitness
