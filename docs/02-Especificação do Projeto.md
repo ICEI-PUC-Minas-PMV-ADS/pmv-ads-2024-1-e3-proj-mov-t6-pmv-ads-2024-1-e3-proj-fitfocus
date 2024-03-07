@@ -85,15 +85,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| O sistema deve permitir que o usuário tenha acesso ao aplicativo através de e-mail e senha. | ALTA | 
+|RF-02| O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos. | ALTA |
+|RF-03| O sistema deve permitir que os usuários que fornecem informações possam atualizar suas publicações quando necessário. | MÉDIA |
+|RF-04| O sistema deve ter um campo IMC para que os usuários que consomem conteúdo possam fazer o cálculo do seu índice de massa corporal com facilidade. | MÉDIA |
+|RF-05| O sistema deve permitir a criação de usuários que criam conteúdo e a criação de usuários que consomem o conteúdo. | ALTA |
+|RF-06| O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo. | ALTA |
+|RF-07| O sistema deve conter permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
+|RF-08| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O sistema deve ser responsivo para rodar em um dispositivo móvel; | MÉDIA | 
+|RNF-02| O sistema deve ser implementado usando a linguagem de programação Javascript e o framework React-Native; |  BAIXA | 
+|RNF-03| A aplicação deve ser compatível com sistemas operacionais Android e iOS; | ALTA |
+|RNF-04| O aplicativo deve se restringir às tecnologias de desenvolvimento mobile. | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -116,8 +124,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| A primeira etapa do projeto referente a análise e especificação do problema deverá ser entregue até o dia 10/03/2024;|
+|02| Não pode ser desenvolvido um módulo de backend |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
