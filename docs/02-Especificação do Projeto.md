@@ -99,7 +99,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01| O sistema deve ser responsivo para rodar em um dispositivo móvel; | MÉDIA | 
-|RNF-02| O sistema deve ser implementado usando a linguagem de programação Javascript e o framework React-Native; |  BAIXA | 
+|RNF-02| O sistema deve ser implementado usando a linguagem de programação Javascript e o framework React-Native; |  ALTA | 
 |RNF-03| A aplicação deve ser compatível com sistemas operacionais Android e iOS; | ALTA |
 |RNF-04| O aplicativo deve se restringir às tecnologias de desenvolvimento mobile. | ALTA |
 
