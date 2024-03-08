@@ -76,11 +76,11 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 ## Indicadores de Desempenho
 
 
-|INDICADOR|OBJETIVOS|DESCRIÇÃo|CÁLCULO|FONTE DADOS|PERSPECTIVA|
+|INDICADOR|OBJETIVOS|DESCRIÇÃO|CÁLCULO|FONTE DADOS|PERSPECTIVA|
 |-------------|-------------|-------------|-------------|-------------|-------------|
 |Satisfação do usuário|Avaliar a satisfação em relação ao uso do app por parte dos usuários|Metrificar o desempenho através da avaliação média dos usuários|-|Loja de aplicativos|Aprimorar o aplicativo|
 |Número de downloads|Acompanhar o desempenho em que o aplicativo é baixado|Obter o número de vezes em que o aplicativo foi baixado|-|Loja de aplicativos|Métrica importante para a aplicação|
-|Reclamações|Rastrear e corrigir feedbacks negativos com o objetivo de serem cada vez menos frequentes.|Análise de feedback sobre o aplicativo|-|Loja de aplicativos|Métrica importante para a aplicação|
+|Reclamações|Rastrear e corrigir feedbacks negativos com o objetivo de serem cada vez menos frequentes.|Análise de feedback sobre o aplicativo|-|Central de Avaliação|Métrica importante para a aplicação|
 
 
 ## Requisitos
