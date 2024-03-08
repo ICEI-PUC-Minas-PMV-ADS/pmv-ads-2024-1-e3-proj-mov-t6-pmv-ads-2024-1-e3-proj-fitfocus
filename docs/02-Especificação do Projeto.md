@@ -50,11 +50,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Com o aumento da procura por informações sobre alimentação, atividades físicas e melhor qualidade de vida, um app para unificar e compartilhar conhecimento confiável acerca do mundo da nutrição se torna necessário. 
+O aumento dos preços de alimentos, juntamente com a falta de profundidade na informação fornecida em conteúdos curtos de redes sociais, gera uma descrença e desânimo no usuário que está iniciando essa jornada. Graças a isso, muitos acreditam que não é possível seguir esse caminho, sem aumentar os custos ou realizar sacrifícios de alimentos que já gosta.
+
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+O app Fit Focus surge para preencher essa lacuna e auxiliar as pessoas que querem entrar nesse mundo, mesmo sem elevar o custo das contas.
+Um aplicativo onde o usuário poderá ter várias informações verificadas e já preparadas para facilitar seu aprendizado. Com conceitos diversos, gerados por especialistas em nutrição, atividades físicas e hortifruti. Como também pelos próprios usuários, relatando suas experiências e dicas com base em suas práticas. 
+A proposta é ter um ambiente simples e confiável para gerar uma adesão maior a esse estilo de vida, assim como uma troca rica de conhecimentos e informações.
+
 
 ### Processo 1 – NOME DO PROCESSO
 
@@ -70,12 +75,13 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
 
-Usar o seguinte modelo: 
+|INDICADOR|OBJETIVOS|DESCRIÇÃo|CÁLCULO|FONTE DADOS|PERSPECTIVA|
+|-------------|-------------|-------------|-------------|-------------|-------------|
+|Satisfação do usuário|Avaliar a satisfação em relação ao uso do app por parte dos usuários|Metrificar o desempenho através da avaliação média dos usuários|-|Loja de aplicativos|Aprimorar o aplicativo|
+|Número de downloads|Acompanhar o desempenho em que o aplicativo é baixado|Obter o número de vezes em que o aplicativo foi baixado|-|Loja de aplicativos|Métrica importante para a aplicação|
+|Reclamações|Rastrear e corrigir feedbacks negativos com o objetivo de serem cada vez menos frequentes.|Análise de feedback sobre o aplicativo|-|Loja de aplicativos|Métrica importante para a aplicação|
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
