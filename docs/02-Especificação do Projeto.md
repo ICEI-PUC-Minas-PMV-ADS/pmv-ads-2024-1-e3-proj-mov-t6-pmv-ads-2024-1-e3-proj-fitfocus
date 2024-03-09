@@ -208,6 +208,11 @@ Desenvolvimento em Back-end; Implementação;
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Determinamos o orçamento do projeto baseado nos requisitos necessários para a criação e manutenção do aplicativo. Esse cronograma pode ser alterado ao longo do projeto com base no tempo e recursos utilizados. 
 
-![Orçamento](img/02-orcamento.png)
+| Recursos Necessários  | Custo estimado (R$) |
+| ------------- | ------------- |
+| Software e Manutenção  | R$75.000  |
+| Publicidade e Marketing | R$10.000 |
+| TOTAL | R$85.000 |
+
