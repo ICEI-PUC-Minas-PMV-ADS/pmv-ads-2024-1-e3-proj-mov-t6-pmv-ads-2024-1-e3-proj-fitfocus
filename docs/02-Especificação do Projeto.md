@@ -172,19 +172,32 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Definimos o cronograma no gráfico de Gantt a seguir:
+<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/3851333e61a611d0d5b0b27fd7c9bf91c0dd63e1/docs/img/Gantt-atualizado.jpg />
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+Analise:
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/3d003f6575f401def7c0eda8b5e31527e07ecb39/docs/img/Analise.jpg />
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+A equipe foi dividida em três setores principais, sendo eles: Planejamento, Interface e Desenvolvimento. Cada setor consta com seus respectivos líderes, tendo o auxílio de toda a equipe em suas atividades.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+### **Equipe de planejamento:** 
+Definição da preferência do público alvo; Redação dos conteúdos; Testes de usabilidade;
+
+**Líderes:** Lorena Lopes e Ingrid Barros. 
+
+### **Equipe de interface:** 
+Definição de layout; Front-end;
+
+**Líderes:** Karina Barbosa, Rafael Gonçalves.
+
+### **Equipe de desenvolvimento:**
+Desenvolvimento em Back-end; Implementação;
+
+**Líderes:** Enzo Moura e Samuel Magalhães.
+
 
 ## Gestão de Orçamento
 
