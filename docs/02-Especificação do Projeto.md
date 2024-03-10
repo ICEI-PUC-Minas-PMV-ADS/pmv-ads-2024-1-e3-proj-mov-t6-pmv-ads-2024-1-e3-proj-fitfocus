@@ -141,7 +141,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-<img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/3851333e61a611d0d5b0b27fd7c9bf91c0dd63e1/docs/img/CasoDeUso.png />
+![Processo 1](img/CasoDeUso.png)
 
 # Matriz de Rastreabilidade
 
