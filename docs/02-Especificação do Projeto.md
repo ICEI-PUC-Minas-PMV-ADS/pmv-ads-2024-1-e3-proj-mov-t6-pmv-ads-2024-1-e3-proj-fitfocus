@@ -61,17 +61,9 @@ Um aplicativo onde o usuário poderá ter várias informações verificadas e j�
 A proposta é ter um ambiente simples e confiável para gerar uma adesão maior a esse estilo de vida, assim como uma troca rica de conhecimentos e informações.
 
 
-### Processo 1 – NOME DO PROCESSO
+### Processo
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+![Processo](img/processo-de-negocio.png)
 
 ## Indicadores de Desempenho
 
@@ -81,6 +73,8 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 |Satisfação do usuário|Avaliar a satisfação em relação ao uso do app por parte dos usuários|Metrificar o desempenho através da avaliação média dos usuários|-|Loja de aplicativos|Aprimorar o aplicativo|
 |Número de downloads|Acompanhar o desempenho em que o aplicativo é baixado|Obter o número de vezes em que o aplicativo foi baixado|-|Loja de aplicativos|Métrica importante para a aplicação|
 |Reclamações|Rastrear e corrigir feedbacks negativos com o objetivo de serem cada vez menos frequentes.|Análise de feedback sobre o aplicativo|-|Central de Avaliação|Métrica importante para a aplicação|
+|IMC|Veficar a adesão e possiveis bugs.|Acompanhar o uso da ferramenta.|-|Quantidade de dados registrados para calculo|Melhorar e criar mais adesão a ferramenta|
+|Receitas|Conferir a veracidade e uso das receitas do aplicativo|Rastrear o uso da ferramenta.|-|Quantas leituras/acessos|Melhorar e criar mais adesão a ferramenta|
 
 
 ## Requisitos
