@@ -38,11 +38,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Maria  | precisa de acessar dicas sobre alimentação saudável acessíveis | para aprimmorar a saúde dela e de sua filha 
+| Maria  | precisa de acessar dicas sobre alimentação saudável acessíveis | para aprimorar a saúde dela e de sua filha 
 | Eliseu | precisa de informações sobre como cuidar de maneira correta da sua horta | para iniciar seu jardim em casa |
 | Rafael | precisa de encontrar exercicios físicos básicos | para melhorar seu condicionamento físico 
 | Lais | precisa de uma ferramenta útil e atualizada sobre nutrição | para recomendar a seus pacientes
-| André | precisa adicionar múltiplas informações sobre saúde e nutrição | para gerenciar com o eficiência a aplicação Fit Focus
+| André | precisa adicionar múltiplas informações sobre saúde e nutrição | para gerenciar com eficiência a aplicação Fit Focus
 | Felipe | precisa se manter atualizado sobre o valor nutricional dos alimentos | para ajudar seus clientes a alcançar suas metas fitness
 
 
@@ -91,7 +91,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-04| O sistema deve ter um campo IMC para que os usuários que consomem conteúdo possam fazer o cálculo do seu índice de massa corporal com facilidade. | MÉDIA |
 |RF-05| O sistema deve permitir a criação de usuários que criam conteúdo e a criação de usuários que consomem o conteúdo. | ALTA |
 |RF-06| O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo. | ALTA |
-|RF-07| O sistema deve conter permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
+|RF-07| O sistema deve permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
 |RF-08| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
 
 ### Requisitos não Funcionais
@@ -103,21 +103,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-03| A aplicação deve ser compatível com sistemas operacionais Android e iOS; | ALTA |
 |RNF-04| O aplicativo deve se restringir às tecnologias de desenvolvimento mobile. | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -126,12 +111,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| A primeira etapa do projeto referente a análise e especificação do problema deverá ser entregue até o dia 10/03/2024;|
 |02| Não pode ser desenvolvido um módulo de backend |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
@@ -189,7 +168,6 @@ Definição de layout; Front-end;
 Desenvolvimento em Back-end; Implementação;
 
 **Líderes:** Enzo Moura e Samuel Magalhães.
-
 
 ## Gestão de Orçamento
 
