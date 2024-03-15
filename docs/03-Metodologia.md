@@ -70,6 +70,9 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 
 O board do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível em: <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859" target="_blank">clicando aqui</a>.
 
+![quadro kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/54821603-307e-48a9-82e8-dbd83ba34b29)
+
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
