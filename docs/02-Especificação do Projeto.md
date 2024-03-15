@@ -175,7 +175,10 @@ Determinamos o orçamento do projeto baseado nos requisitos necessários para a 
 
 | Recursos Necessários  | Custo estimado (R$) |
 | ------------- | ------------- |
-| Software e Manutenção  | R$75.000  |
-| Publicidade e Marketing | R$10.000 |
-| TOTAL | R$85.000 |
+| Mão de obra (desenvolvimento e manutenção)	| R$ 65.000,00 |
+| Hospedagem (Azure)	| R$ 6.746,62 |
+| App Store  | R$ 507,14  |
+| Google Play | R$ 108,27 |
+| Publicidade e Marketing | R$ 15.000 |
+| TOTAL | R$ 87.362,03 |
 
