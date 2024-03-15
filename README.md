@@ -1,10 +1,13 @@
 # FITFOCUS
 
-`CURSO:` Análise e Desenvolvimento de Sistemas
+ `Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA:` Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE:` Eixo 3 [2024]
+`Eixo 3 `
+
+![banner fit focus](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/b26a075e-b28b-44e6-9f55-516b52e5df60)
+
 
 O projeto se trata da criação de um aplicativo que facilite o acesso do público a receitas e conhecimentos do mundo nutritivo voltados para aprimorar a qualidade de vida.
 
