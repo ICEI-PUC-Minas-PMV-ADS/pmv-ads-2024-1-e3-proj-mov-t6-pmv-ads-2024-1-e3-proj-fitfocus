@@ -9,10 +9,10 @@ Os artefatos do projeto Fit Focus são desenvolvidos por toda a equipe a partir 
 
 | AMBIENTE                          | PLATAFORMA      | LINK DE ACESSO                                                                                                                  |
 | --------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Repositório de código fonte       | GitHub          | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus |
-| Documentos do projeto             |           |        |
-| Projeto de Interface e Wireframes | Figma           | https://www.figma.com/file/P5qBH94UsWw7I5iaiJguJ0/FitFocus?type=design&node-id=0-1&mode=design&t=kGioFtVTHkXnIso6-0                   |
-| Gerenciamento do Projeto        | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859
+| Repositório de código fonte       | GitHub          | <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus" target="_blank">Clique aqui</a> para acessar o repositório |
+| Documentos do projeto             | GitHub          | <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/tree/main/docs" target="_blank">Clique aqui</a> para acessar a documentação               |
+| Projeto de Interface e Wireframes | Figma           | <a href="https://www.figma.com/file/P5qBH94UsWw7I5iaiJguJ0/FitFocus?type=design&node-id=0-1&mode=design&t=kGioFtVTHkXnIso6-0" target="_blank">Clique aqui</a> para acessar os Wireframes           |
+| Gerenciamento do Projeto          | GitHub Projects | <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859" target="_blank">Clique aqui</a> para acessar nosso gerenciador do Projeto
 
 
 ## Controle de Versão
@@ -58,7 +58,7 @@ Líderes: Enzo Moura e Samuel Magalhães.
 
 ### Processo
 
-Para a organização e distribuição das tarefas do projeto, o grupo esta utilizando o Board do GitHub Projects, seguindo os critérios de:
+Para a organização e distribuição das tarefas do projeto, o grupo esta utilizando o quadro Kanban do GitHub Projects, seguindo os critérios de:
 
 `Backlog`: Todos os artefatos que serão necessários para o desenvolvimento completo do projeto.
 
@@ -68,8 +68,7 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 
 `Done`: Todos os artefatos que foram testados, aprovados e implementados no projeto.
 
-O board do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível em: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859
-
+O board do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível em: <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859" target="_blank">clicando aqui</a>.
 
 ### Ferramentas
 
@@ -77,11 +76,11 @@ As ferramentas empregadas no projeto são:
 
 | Ferramenta | Descrição | 
 | --- | --- | 
-| Editor de código | Visual Studio Code | 
+| Editor de código    | Visual Studio Code | 
 | Linguagem utilizada | Framework React Native |
 | Ferramentas de comunicação | Microsoft Teams, Whatsapp | 
 | Ferramentas de desenho de tela | Figma |
-| Criação de Diagramas | Draw.io |
+|  Ferramenta de criação de diagramas | Draw.io |
 
 O `Visual Studio Code` foi selecionado devido à sua integração com sistemas de controle de versão, atendendo aos requisitos de desenvolvimento de software exigidos para o nosso projeto. 
 
@@ -91,4 +90,4 @@ Para a criação de diagramas utilizamos o `Draw.io` e para o desenho de wirefra
 
 Quanto ao controle de versão e repositório do projeto, escolhemos o `Git` e `GitHub`, dada a sua ampla adoção na comunidade de desenvolvimento de software, oferecendo uma plataforma robusta para o gerenciamento e colaboração em código fonte.
 
-Por fim, para o gerenciamento de tarefas, utilizamos o `Github Projects` através do método Kanban.
+Por fim, para o gerenciamento de tarefas, utilizamos o quadro Kanban no `Github Projects`.
