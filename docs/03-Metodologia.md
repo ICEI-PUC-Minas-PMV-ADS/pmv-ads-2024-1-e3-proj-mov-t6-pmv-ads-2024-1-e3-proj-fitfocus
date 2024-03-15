@@ -1,14 +1,19 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramental utilizado pela equipe, tanto para a manutenção dos códigos e demais artefatos, quanto para a organização do time na execução das tarefas do projeto.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os artefatos do projeto Fit Focus são desenvolvidos por toda a equipe a partir de diversas plataformas. A relação dos ambientes de trabalho com o seu respectivo propósito, está detalhadamente apresentado na seguinte tabela:
+
+| AMBIENTE                          | PLATAFORMA      | LINK DE ACESSO                                                                                                                  |
+| --------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Repositório de código fonte       | GitHub          | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus |
+| Documentos do projeto             |           |        |
+| Projeto de Interface e Wireframes | Figma           | https://www.figma.com/file/P5qBH94UsWw7I5iaiJguJ0/FitFocus?type=design&node-id=0-1&mode=design&t=kGioFtVTHkXnIso6-0                   |
+| Gerenciamento do Projeto        | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859
+
 
 ## Controle de Versão
 
@@ -31,57 +36,59 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe foi dividida em três setores principais, sendo eles: Planejamento, Interface e Desenvolvimento. Cada setor consta com seus respectivos líderes, tendo o auxílio de toda a equipe em suas atividades.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+`Equipe de planejamento`: Definição da preferência do público alvo; Redação dos conteúdos; Testes de usabilidade;
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+Líderes: Lorena Lopes e Ingrid Barros.
+
+`Equipe de interface`: Definição de layout; Front-end;
+
+Líderes: Karina Barbosa, Rafael Gonçalves.
+
+`Equipe de desenvolvimento`: Desenvolvimento em Back-end; Implementação;
+
+Líderes: Enzo Moura e Samuel Magalhães.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para a organização e distribuição das tarefas do projeto, o grupo esta utilizando o Board do GitHub Projects, seguindo os critérios de:
+
+`Backlog`: Todos os artefatos que serão necessários para o desenvolvimento completo do projeto.
+
+`To Do`: Todos os artefatos referentes à etapa atual do desenvolvimento do projeto.
+
+`In progress`: Artefatos aguardando aprovação para implementação.
+
+`Done`: Todos os artefatos que foram testados, aprovados e implementados no projeto.
+
+O board do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível em: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+| Ferramenta | Descrição | 
+| --- | --- | 
+| Editor de código | Visual Studio Code | 
+| Linguagem utilizada | Framework React Native |
+| Ferramentas de comunicação | Microsoft Teams, Whatsapp | 
+| Ferramentas de desenho de tela | Figma |
+| Criação de Diagramas | Draw.io |
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O `Visual Studio Code` foi selecionado devido à sua integração com sistemas de controle de versão, atendendo aos requisitos de desenvolvimento de software exigidos para o nosso projeto. 
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Em relação às ferramentas de comunicação, optamos pelo `Microsoft Teams` e `WhatsApp` devido à sua capacidade de integração eficiente, facilitando a comunicação e colaboração entre os membros da equipe.
+
+Para a criação de diagramas utilizamos o `Draw.io` e para o desenho de wireframes e protótipos, utilizamos o `Figma`, pela sua capacidade de captar de forma precisa as necessidades da solução em desenvolvimento, garantindo assim uma melhor compreensão do escopo do projeto.
+
+Quanto ao controle de versão e repositório do projeto, escolhemos o `Git` e `GitHub`, dada a sua ampla adoção na comunidade de desenvolvimento de software, oferecendo uma plataforma robusta para o gerenciamento e colaboração em código fonte.
+
+Por fim, para o gerenciamento de tarefas, utilizamos o `Github Projects` através do método Kanban.
