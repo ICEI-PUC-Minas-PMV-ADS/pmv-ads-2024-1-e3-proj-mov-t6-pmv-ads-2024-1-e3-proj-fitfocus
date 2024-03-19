@@ -63,18 +63,17 @@ A proposta é ter um ambiente simples e confiável para gerar uma adesão maior 
 
 ### Processo
 
-![Processo](img/processo-de-negocio.png)
+![Processo](img/download.jpg)
 
 ## Indicadores de Desempenho
 
 
 |INDICADOR|OBJETIVOS|DESCRIÇÃO|CÁLCULO|FONTE DADOS|PERSPECTIVA|
 |-------------|-------------|-------------|-------------|-------------|-------------|
-|Satisfação do usuário|Avaliar a satisfação em relação ao uso do app por parte dos usuários|Metrificar o desempenho através da avaliação média dos usuários|-|Loja de aplicativos|Aprimorar o aplicativo|
-|Número de downloads|Acompanhar o desempenho em que o aplicativo é baixado|Obter o número de vezes em que o aplicativo foi baixado|-|Loja de aplicativos|Métrica importante para a aplicação|
-|Reclamações|Rastrear e corrigir feedbacks negativos com o objetivo de serem cada vez menos frequentes.|Análise de feedback sobre o aplicativo|-|Central de Avaliação|Métrica importante para a aplicação|
-|IMC|Veficar a adesão e possiveis bugs.|Acompanhar o uso da ferramenta.|-|Quantidade de dados registrados para calculo|Melhorar e criar mais adesão a ferramenta|
-|Receitas|Conferir a veracidade e uso das receitas do aplicativo|Rastrear o uso da ferramenta.|-|Quantas leituras/acessos|Melhorar e criar mais adesão a ferramenta|
+|Satisfação do usuário|Avaliar a satisfação em relação ao uso do app por parte dos usuários|Metrificar o desempenho através da avaliação média dos usuários|Media de Avaliação dos usuarios|Loja de aplicativos|Aprimorar o aplicativo|
+|Número de downloads|Acompanhar o desempenho em que o aplicativo é baixado|Obter o número de vezes em que o aplicativo foi baixado|Quantidade de Downloads|Loja de aplicativos|Métrica importante para a aplicação|
+|IMC|Veficar se o calculo esta sendo feito corretamente|Acompanhar o uso da ferramenta.|(Peso/Altura)²|Fornecidos no cadastro do usuario|Melhorar e criar mais adesão a ferramenta|
+|Receitas|Conferir a veracidade e uso das receitas do aplicativo|Rastrear o uso da ferramenta.|Quantidade de leitura e salvamento de X receita|Banco de dados|Melhorar e criar mais adesão a ferramenta|
 
 
 ## Requisitos
