@@ -110,7 +110,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto completo deverá ser entregue até o dia 31/06/2024;|
 |02| A equipe não pode subcontratar o desenvolvimento do trabalho.|
-|03| a aplicação deve responder em um tempo de até 5s as suas requisições.|
+|03| A aplicação deve responder em um tempo de até 5s as suas requisições.|
 
 ## Diagrama de Casos de Uso
 
