@@ -8,6 +8,12 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/e2cdfedce5d2fbea3595fc1b281a4bc6a168a393/docs/img/Logo.png" alt="">
 
 ### Tipografia
+
+Fontes:
+<p> Títulos: Javanese Text </p>
+<p> Texto: Inter </p>
+<p> Logo: Contrail One </p>
+
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/e2cdfedce5d2fbea3595fc1b281a4bc6a168a393/docs/img/Tipografia.png" alt="">
 
 ### Paleta de cores
