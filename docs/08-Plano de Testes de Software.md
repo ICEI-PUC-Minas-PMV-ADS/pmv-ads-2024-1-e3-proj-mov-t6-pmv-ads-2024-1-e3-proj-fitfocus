@@ -5,13 +5,15 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |    Caso de Teste    |  **CT-01 - Login** |                                                                                         
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
 | Requisito Associado | RF-01 - O sistema deve permitir que o usuário faça login no aplicativo através de e-mail e senha. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue acessar sua conta com e-mail e senha. |                                          |       Passos        |  1) Acessar a aplicação móvel <br> 2) Inserir informações para o login <br>
+|  Objetivo do teste  |  Verificar se o usuário consegue acessar sua conta com e-mail e senha. |
+|       Passos        |  1) Acessar a aplicação móvel <br> 2) Inserir informações para o login <br> |
 | Critérios de Êxito  |  O sistema deve permitir que o usuário acesse sua conta. |     
 
 |    Caso de Teste    |  **CT-02 - Criar Conteúdos** |                                                                                         
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
 | Requisito Associado | RF-02 - O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue usar o aplicativo para escrever seus textos e artigos sem dificuldades. |        |       Passos        |  
+|  Objetivo do teste  |  Verificar se o usuário consegue usar o aplicativo para escrever seus textos e artigos sem dificuldades. | 
+|       Passos        |  |
 | Critérios de Êxito  |  O sistema deve permitir que o usuário escreva o conteúdo e o publique sem dificuldades. |
 
 |    Caso de Teste    |  **CT-03 - Atualizar Conteúdos** |                                                                                         
