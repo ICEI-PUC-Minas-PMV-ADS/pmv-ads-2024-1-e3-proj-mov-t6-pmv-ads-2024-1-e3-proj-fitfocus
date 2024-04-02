@@ -84,7 +84,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| O sistema deve permitir que o usuário tenha acesso ao aplicativo através de e-mail e senha. | ALTA | 
+|RF-01| O sistema deve permitir que o usuário faça login no aplicativo através de e-mail e senha. | ALTA | 
 |RF-02| O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos. | ALTA |
 |RF-03| O sistema deve permitir que os usuários que fornecem informações possam atualizar suas publicações quando necessário. | MÉDIA |
 |RF-04| O sistema deve ter um campo IMC para que os usuários que consomem conteúdo possam fazer o cálculo do seu índice de massa corporal com facilidade. | MÉDIA |
