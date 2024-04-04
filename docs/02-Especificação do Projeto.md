@@ -86,12 +86,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-01| O sistema deve permitir que o usuário faça login no aplicativo através de e-mail e senha. | ALTA | 
 |RF-02| O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos. | ALTA |
-|RF-03| O sistema deve permitir que os usuários que fornecem informações possam atualizar suas publicações quando necessário. | MÉDIA |
-|RF-04| O sistema deve ter um campo IMC para que os usuários que consomem conteúdo possam fazer o cálculo do seu índice de massa corporal com facilidade. | MÉDIA |
-|RF-05| O sistema deve permitir a criação de usuários que criam conteúdo e a criação de usuários que consomem o conteúdo. | ALTA |
+|RF-03| O sistema deve permitir que o usuário criador de conteúdo possa criar, editar, visualizar e excluir publicações. | MÉDIA |
+|RF-04| O sistema deve conter uma tela que faça o cálculo do IMC (índice de massa corporal) dos usuários. | MÉDIA |
+|RF-05| O sistema deve possibilitar a criação de perfis de usuários distintos, diferenciando entre os criadores de conteúdo e os consumidores de conteúdo. | ALTA |
 |RF-06| O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo. | ALTA |
 |RF-07| O sistema deve permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
 |RF-08| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
+|RF-09| O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. | ALTA |
 
 ### Requisitos não Funcionais
 
