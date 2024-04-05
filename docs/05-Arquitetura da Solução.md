@@ -58,11 +58,11 @@ A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, d
 
 | Característica | Subcaracterística | Justificativa |
 |----------------|-------------------|---------------|
-| Usabilidade    | Inteligibilidade<br> Apreensibilidade <br> Operacionalidade | Facilidade com que o usuário pode compreender as funcionalidades  do sistema e avaliar se o mesmo pode ser usado para satisfazer as suas necessidades. <br> Identifica a facilidade de aprendizado do sistema para os seus potenciais usuários. <br>O sistema possui atributos que facilitam seu uso e controle.<br>|
-| Segurança | confidencialidade | O sistema é capaz de garantir que dados são acessados apenas por aqueles que têm acesso autorizado. |
-| Manutenibilidade | Modularidade <br> Modificabilidade<br> testabilidade<br>|  Mecanismo que permite que um sistema de software seja dividido em partes que interagem entre si.<br>Capacidade de um produto ou sistema ser modificado sem introduzir defeitos ou diminuir a qualidade atual.<br>Efetividade de testes para o sistema.|
-| Portabilidade | Facilidade de instalação |  Capacidade de um produto ou sistema ser instalado ou desinstalado facilmente.|
-| Eficiência | Comportamento em relação ao tempo. | Tempo de resposta e processamento. |
+| Usabilidade    | - Inteligibilidade<br> - Apreensibilidade <br> - Operacionalidade | - Facilidade com que o usuário pode compreender as funcionalidades  do sistema e avaliar se o mesmo pode ser usado para satisfazer as suas necessidades. <br> - Identifica a facilidade de aprendizado do sistema para os seus potenciais usuários. <br> - O sistema possui atributos que facilitam seu uso e controle.<br>|
+| Segurança | - Confidencialidade | - O sistema é capaz de garantir que dados são acessados apenas por aqueles que têm acesso autorizado. |
+| Manutenibilidade | - Modularidade <br> - Modificabilidade<br> - Testabilidade<br>| - Mecanismo que permite que um sistema de software seja dividido em partes que interagem entre si.<br> - Capacidade de um produto ou sistema ser modificado sem introduzir defeitos ou diminuir a qualidade atual.<br> - Efetividade de testes para o sistema.|
+| Portabilidade | - Facilidade de instalação | - Capacidade de um produto ou sistema ser instalado ou desinstalado facilmente.|
+| Eficiência |- Comportamento em relação ao tempo. | - Tempo de resposta e processamento. |
 
 A partir das características e subcaracterísticas apresentadas, é possível estabelecer métricas de avaliação do produto, que são utilizadas para caracterizar e ter melhor entendimento de todo o processo por trás do produto desenvolvido:
 
