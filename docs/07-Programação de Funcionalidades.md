@@ -3,6 +3,7 @@
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema de acordo com os requisitos funcionais e não funcionais.
 
 # Página de login (RF-001)
+A página de Login apresenta a funcionalidade do usuário acessar sua conta.
 | Página de Login | 
  ------------------------------------------|
 | ![tela](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/22ca6aab-669c-4952-ad72-11a029da67a4) |
@@ -10,9 +11,10 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 ## Requisito atendido:
 |ID    | Descrição do Requisito  |
 |------|-----------------------------------------|
-|RF-001| O sistema deve permitir que o usuário faça login no aplicativo através de e-mail e senha. | 
+|RF-001| O sistema deve permitir que o usuário faça login no aplicativo através de e-mail e senha | 
 
-# Página de postagem: usuário autor de contéudo  (RF-002)
+# Página de publicação: usuário autor de contéudo  (RF-002)
+A página de publicação permite ao usuário a criação e postagem de conteúdo na aplicação.
 | Produção e publicação |
  ------------------------------------------|
 | ![texto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/f7433f07-1283-41b5-a06a-bc994df21b1e) |
@@ -22,7 +24,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 |------|-----------------------------------------|
 |RF-002| O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos | 
 
-# Página com a calculadora de IMC, índice de massa corporal (RF-004)
+# Página com a calculadora de IMC (RF-004)
+A página permite que o usuário faça o cálculo de seu índice de massa corporal.
 | IMC  |
  ------------------------------------------| 
  | ![imc](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/1c3a1503-fe29-4153-9be2-344243e7e1db) |
@@ -32,8 +35,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 |------|-----------------------------------------|
 |RF-004| O sistema deve conter uma tela que faça o cálculo do IMC (índice de massa corporal) dos usuários| 
 
-# Página inicial e barra lateral: visualização das abas no app FitFocus (RF- 006)
-
+# Página inicial e barra lateral (RF-006)
+A página inicial contém uma barra lateral permitindo a visualização das abas da aplicação.
 | Barra lateral |
  ------------------------------------------| 
 | ![barra](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/f52f21ce-603a-47db-b6f6-485256eb4b82) |
@@ -48,6 +51,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 |RF-006 |  O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo| 
 
 # Página de Cadastro do Usuário (RF-009)
+A página de cadastro do usuário apresenta a funcionalidade do usuário de criar uma conta na aplicação.
 | Página de Cadastro | 
  ------------------------------------------|
 | ![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/89883311/4dfa3fc2-dd21-4a54-a68f-4cd16c20cb6b) |
