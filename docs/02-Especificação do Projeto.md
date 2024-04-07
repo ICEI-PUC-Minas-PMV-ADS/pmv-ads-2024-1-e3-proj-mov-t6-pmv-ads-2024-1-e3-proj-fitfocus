@@ -92,7 +92,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-06| O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo. | ALTA |
 |RF-07| O sistema deve permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
 |RF-08| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
-|RF-09| O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. | ALTA |
+
 
 ### Requisitos não Funcionais
 
