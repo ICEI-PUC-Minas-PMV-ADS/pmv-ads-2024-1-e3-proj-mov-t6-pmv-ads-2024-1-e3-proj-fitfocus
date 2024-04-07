@@ -88,7 +88,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02| O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos. | ALTA |
 |RF-03| O sistema deve permitir que o usuário criador de conteúdo possa criar, editar, visualizar e excluir publicações. | MÉDIA |
 |RF-04| O sistema deve conter uma tela que faça o cálculo do IMC (índice de massa corporal) dos usuários. | MÉDIA |
-|RF-05| O sistema deve possibilitar a criação de perfis de usuários distintos, diferenciando entre os criadores de conteúdo e os consumidores de conteúdo. | ALTA |
+|RF-05| O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. | ALTA |
 |RF-06| O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo. | ALTA |
 |RF-07| O sistema deve permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
 |RF-08| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
