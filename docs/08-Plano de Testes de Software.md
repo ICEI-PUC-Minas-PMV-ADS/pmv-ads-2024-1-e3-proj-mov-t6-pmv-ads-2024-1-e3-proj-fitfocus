@@ -18,7 +18,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 |    Caso de Teste    |  **CT-03 - Atualizar Conteúdos** |                                                                                         
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | O sistema deve permitir que o usuário criador de conteúdo possa criar, editar, visualizar e excluir publicações. |     
+| Requisito Associado | RF-03 - O sistema deve permitir que o usuário criador de conteúdo possa criar, editar, visualizar e excluir publicações. |     
 |  Objetivo do teste  |  Verificar se o usuário consegue editar suas publicações produzidas anteriormente. |        
 |       Passos        | 1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar em "Área de criação" <br> 3) O usuário deve escolher o conteúdo que deseja editar em seu histórico de publicações <br> 4) Clicar no ícone de edição <br> 5) Editar o conteúdo desejado <br> 6) Clicar em "Publicar".
 | Critérios de Êxito  |  O sistema deve permitir que o usuário atualize suas publicações de forma fácil e descomplicada. |
@@ -32,7 +32,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 |    Caso de Teste    |  **CT-05 - Cadastro de usuário** |                                                                      
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-05 - O sistema deve possibilitar a criação de perfis de usuários distintos, diferenciando entre os criadores de conteúdo e os consumidores de conteúdo.. |     
+| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
 |  Objetivo do teste  |  Verificar se o usuário consegue realizar o cadastro de um perfil. |
 |       Passos        |  1) Na tela de login, clicar em "Registre-se" <br> 2) Inserir as informações solicitadas para o cadastro <br> 3) Clicar em "Registre-se" para concluir o cadastro.
 | Critérios de Êxito  |  O sistema deve permitir que o usuário cadastre seu perfil. |
@@ -67,21 +67,21 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 |    Caso de Teste    |  **CT-10 - Edição de perfil** |                                                                        
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-09 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
+| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
 |  Objetivo do teste  | Verificar se o usuário consegue editar seu perfil. |
 |       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar no ícone de perfil <br> 3) Após acessar o perfil, clicar em "Editar perfil" <br> 4) O usuário deve alterar as informações desejadas <br> 5) Clicar em "Confirmar alterações" para realizar a edição de seu perfil.
 | Critérios de Êxito  |  O sistema deve permitir que o usuário edite seu perfil. |
 
 |    Caso de Teste    |  **CT-10 - Exclusão de perfil** |                                                                        
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-09 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
+| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
 |  Objetivo do teste  | Verificar se o usuário consegue excluir seu perfil. |
 |       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar no ícone de perfil <br> 3) Após acessar o perfil, clicar em "Excluir perfil" <br> 4) Clicar em "Confirmar exclusão do perfil" 
 | Critérios de Êxito  |  O sistema deve permitir que o usuário exclua seu perfil. |
 
-|    Caso de Teste    |  **CT-1 - Visualização de perfil** |                                                                        
+|    Caso de Teste    |  **CT-11 - Visualização de perfil** |                                                                        
 | :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-09 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
+| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
 |  Objetivo do teste  | Verificar se o usuário consegue visualizar seu perfil. |
 |       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar no ícone de perfil e visualizar as informações 
 | Critérios de Êxito  |  O sistema deve permitir que o usuário visualize seu perfil. |
