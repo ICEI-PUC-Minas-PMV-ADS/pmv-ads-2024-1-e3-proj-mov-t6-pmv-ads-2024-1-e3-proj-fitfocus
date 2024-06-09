@@ -1,5 +1,6 @@
 package me.magi.fitcore.model.repository;
 
+import me.magi.fitcore.model.entity.ContentCreatorEntity;
 import me.magi.fitcore.model.entity.UserEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
@@ -11,7 +12,9 @@ import java.util.Optional;
 @Transactional
 public interface UserRepository extends CrudRepository<UserEntity, Long> {
 
-    Optional<UserEntity> findByIdNumber(String id);
+     UserEntity findUserByEmail(String email);
 
-    void deleteByIdNumber(String id);
+     Optional<UserEntity> findByEmail(String email);
+
+
 }

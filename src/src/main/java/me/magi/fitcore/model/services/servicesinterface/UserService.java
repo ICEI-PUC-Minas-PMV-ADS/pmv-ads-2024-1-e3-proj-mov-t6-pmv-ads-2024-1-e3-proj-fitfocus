@@ -1,19 +1,22 @@
 package me.magi.fitcore.model.services.servicesinterface;
 
-import me.magi.fitcore.api.dto.UserRequestDto;
 import me.magi.fitcore.model.entity.UserEntity;
 
 import java.util.List;
 
 public interface UserService {
 
-    public void addNewMilitary(UserEntity military);
+    public void addNewUser(UserEntity military);
 
-    public void removeMilitary(String id);
+    public void removeUser(Long id);
 
-    public UserEntity readMilitary(String id);
+    public UserEntity readUser(Long id);
     
-    public List<UserEntity> listAllMilitary();
+    public List<UserEntity> listAllUser();
 
-    public void updateMilitaryById(String id, UserRequestDto userRequestDto);
+    public void updateUserById(Long id, UserEntity userRequestDto);
+
+    public UserEntity findUserByEmailAndPassword(String email, String password);
+
+    UserEntity findUserByEmail(String email);
 }

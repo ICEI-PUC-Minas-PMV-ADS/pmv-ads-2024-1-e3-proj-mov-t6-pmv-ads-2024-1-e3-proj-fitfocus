@@ -20,7 +20,139 @@ Conforme segue o diagrama, teremos dois serviços, uma aplicação java feita em
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+### Tabela usuários
+```
+CREATE TABLE usuarios (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    registerDay DATE NOT NULL,
+    height FLOAT,
+    weight FLOAT,
+    cpf VARCHAR(14) UNIQUE
+);
+```
+
+Insere dados
+```
+INSERT INTO usuarios (id, name, email, password, registerDay, height, weight, cpf)
+VALUES ('123e4567-e89b-12d3-a456-426614174000', 'Maria Silva', 'maria@example.com', 'senhaSegura123', '2024-04-21', 165.5, 54.3, '111.222.333-44');
+```
+
+Atualiza dados
+
+```
+UPDATE usuarios
+SET email = 'novo.email@maria.com', password = 'novaSenha456'
+WHERE id = '123e4567-e89b-12d3-a456-426614174000';
+```
+Apaga dados
+```
+DELETE FROM usuarios
+WHERE id = '123e4567-e89b-12d3-a456-426614174000';
+```
+
+### Tabela de criadores de conteúdo
+```
+CREATE TABLE employees (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    registerDay DATE NOT NULL,
+    jobTitle VARCHAR(255) NOT NULL
+);
+```
+Insere dados
+```
+INSERT INTO employees (id, name, email, password, registerDay, jobTitle)
+VALUES ('c1a2b3c4-d5e6-f7g8-h9i0-j1k2l3m4n5o6', 'Ana Souza', 'ana.souza@example.com', 'senha123', '2024-04-21', 'Desenvolvedora de Software');
+```
+Atualiza dados
+```
+UPDATE employees
+SET jobTitle = 'Gerente de Projeto', password = 'novaSenha456'
+WHERE id = 'c1a2b3c4-d5e6-f7g8-h9i0-j1k2l3m4n5o6';
+```
+
+Apaga dados
+```
+DELETE FROM employees
+WHERE id = 'c1a2b3c4-d5e6-f7g8-h9i0-j1k2l3m4n5o6';
+```
+
+### Tabela de receitas
+```
+CREATE TABLE recipes (
+    id UUID PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    bodyText TEXT NOT NULL,
+    registerDay DATE NOT NULL,
+    calories VARCHAR(255),
+    creator_id UUID,
+    ingredients TEXT,
+    FOREIGN KEY (creator_id) REFERENCES content_creators(creator_id)
+);
+);
+```
+Insere dados
+```
+-- Inserir uma receita
+INSERT INTO recipes (id, title, bodyText, registerDay, calories, creator_id, ingredients)
+VALUES ('uuid-recipe-1', 'Deliciosa Lasanha', 'Passo a passo para fazer uma lasanha...', '2024-04-21', '500', 'uuid-creator-1', 'Molho de Tomate, Massa de Lasanha, Queijo');
+
+```
+
+Atualiza dados
+```
+UPDATE recipes
+SET title = 'Lasanha de Queijo', bodyText = 'Descubra como fazer uma lasanha de queijo...', ingredients = 'Molho de Tomate, Massa de Lasanha, Queijo, Ricota'
+WHERE id = 'uuid-recipe-1';
+```
+
+Apaga dados
+```
+DELETE FROM recipes
+WHERE id = 'uuid-recipe-1';
+```
+
+### Tabela de posts
+```
+CREATE TABLE articles (
+    id UUID PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    bodyText TEXT NOT NULL,
+    registerDay DATE NOT NULL,
+    tags TEXT,
+    creator_id UUID,
+    FOREIGN KEY (creator_id) REFERENCES content_creators(creator_id)
+);
+```
+
+Insere dados
+```
+INSERT INTO articles (id, title, bodyText, registerDay, tags, creator_id)
+VALUES ('uuid-article-1', 'Título do Artigo', 'Texto do Corpo do Artigo', '2024-04-21', 'tag1, tag2', 'uuid-creator-1');
+Atualização de Dados (UPDATE)
+```
+
+Atualiza dados
+```
+UPDATE articles
+SET title = 'Novo Título', bodyText = 'Novo Texto do Corpo', tags = 'novaTag1, novaTag2'
+WHERE id = 'uuid-article-1';
+
+```
+
+Apaga dados
+```
+DELETE FROM articles
+WHERE id = 'uuid-article-1';
+```
+
+## Bancos usados
+
 
 ## Tecnologias Utilizadas
 
@@ -31,14 +163,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 - RESTFUL
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A API de consumo da aplicação se encontra na fonte https://api-fit-61np.onrender.com/api/v1/
 
 ## Qualidade de Software
 

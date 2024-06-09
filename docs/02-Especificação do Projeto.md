@@ -38,12 +38,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Maria  | precisa de acessar dicas sobre alimentação saudável acessíveis | para aprimorar a saúde dela e de sua filha 
-| Eliseu | precisa de informações sobre como cuidar de maneira correta da sua horta | para iniciar seu jardim em casa |
-| Rafael | precisa de encontrar exercicios físicos básicos | para melhorar seu condicionamento físico 
-| Lais | precisa de uma ferramenta útil e atualizada sobre nutrição | para recomendar a seus pacientes
-| André | precisa adicionar múltiplas informações sobre saúde e nutrição | para gerenciar com eficiência a aplicação Fit Focus
-| Felipe | precisa se manter atualizado sobre o valor nutricional dos alimentos | para ajudar seus clientes a alcançar suas metas fitness
+| Maria  | Quero acessar minha conta atraves de e-mail e senha | para visualizar posts sobre alimentação e exercicios fisicos. | 
+| Felipe | Quero escrever meus posts de forma prática | para disponibilizar informações sobre exercícios físicos. |
+| Lais | Quero criar, editar ou excluir minhas publicações | a fim de compartilhar informações sobre nutrição. |
+| Rafael | Quero usar o aplicativo para fazer o cálculo do meu IMC | para saber se estou dentro do índice esperado. |
+| André | Quero cadastrar, editar, visualizar ou excluir meu perfil | para ter controle sobre minha conta no app. |
+| Eliseu | Quero navegar no app através de abas | a fim de visualizar conteúdos. |
+| Lais | Quero usar ferramentas de edição de texto | para publicar tabelas com informações nutricionais. |
+| André | Quero fazer upload de imagens | para complementar meu conteúdo. |
 
 
 ## Modelagem do Processo de Negócio 
@@ -90,8 +92,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-04| O sistema deve conter uma tela que faça o cálculo do IMC (índice de massa corporal) dos usuários. | MÉDIA |
 |RF-05| O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. | ALTA |
 |RF-06| O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo. | ALTA |
-|RF-07| O sistema deve permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela. | ALTA |
-|RF-08| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
+|RF-07| O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas. | BAIXA |
 
 
 ### Requisitos não Funcionais
