@@ -104,3 +104,29 @@
      2. O usuário ".
      3. O usuário .
    - **Resultado Esperado:** O sistema permite que o usuário faça upload de imagens.
+
+### Casos de testes para tela de IMC
+
+1. **Calcular o IMC com sucesso:**
+   - **Descrição:** O usuário fornece as informações solicitadas para o cálculo do IMC .
+   - **Passos:**
+     1. O usuário acessa a tela de IMC.
+     2. O usuário preenche informações como altura, peso, idade e gênero.
+     3. O usuário envia o formulário .
+   - **Resultado Esperado:** O sistema realiza corretamente o cálculo do IMC com as informações fornecidas.
+
+2. **Calcular o IMC com unidades de medida diferente:**
+   - **Descrição:** O usuário fornece as informações solicitadas para o cálculo do IMC com unidades de medida "in"(altura em polegadas) e "lb"(peso em libra).
+   - **Passos:**
+     1. O usuário acessa a tela de IMC.
+     2. O usuário preenche informações como altura, peso, idade e gênero.
+     3. O usuário envia o formulário .
+   - **Resultado Esperado:** O sistema realiza corretamente o cálculo do IMC com as informações fornecidas.
+
+1. **Calcular o IMC sem sucesso:**
+   - **Descrição:** O usuário não fornece as informações solicitadas para o cálculo do IMC .
+   - **Passos:**
+     1. O usuário acessa a tela de IMC.
+     2. O usuário não preenche as informações solicitadas no formulário.
+     3. O usuário envia o formulário .
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que as informações necessárias não foram fornecidas corretamente.
