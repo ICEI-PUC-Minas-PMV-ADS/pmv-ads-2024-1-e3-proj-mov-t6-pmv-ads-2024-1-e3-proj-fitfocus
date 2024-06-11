@@ -1,87 +1,106 @@
 # Plano de Testes de Software
+### Casos de Teste para Registro:
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir.
- 
-|    Caso de Teste    |  **CT-01 - Login** |                                                                                         
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-01 - O sistema deve permitir que o usuário faça login no aplicativo através de e-mail e senha. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue acessar sua conta com e-mail e senha. |
-|       Passos        |  1) Acessar a aplicação móvel <br> 2) Inserir informações para o login <br> 3) Clicar em "Login".|
-| Critérios de Êxito  |  O sistema deve permitir que o usuário acesse sua conta. |     
+1. **Registro com Sucesso:**
+   - **Descrição:** Um usuário se registra com informações válidas.
+   - **Passos:**
+     1. O usuário acessa a página de registro.
+     2. O usuário preenche o formulário com informações válidas (nome, email, senha).
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O usuário é registrado com sucesso no sistema.
 
-|    Caso de Teste    |  **CT-02 - Criar Conteúdos** |                                                                                         
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-02 - O sistema deve conter uma área de texto para que os usuários autores de textos possam produzir e publicar seus trabalhos. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue usar o aplicativo para escrever seus textos e artigos sem dificuldades. | 
-|       Passos        | 1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar em "Área de criação" <br> 3) Clicar em "Adicionar conteúdo" <br> 4) O usuário deve produzir o conteúdo na caixa de texto existente <br> 5) Ao terminar de produzir o conteúdo, o usuário deve clicar em "Publicar".|
-| Critérios de Êxito  |  O sistema deve permitir que o usuário escreva o conteúdo e o publique sem dificuldades. |
+2. **Registro com Email Inválido:**
+   - **Descrição:** Um usuário tenta se registrar com um email inválido.
+   - **Passos:**
+     1. O usuário acessa a página de registro.
+     2. O usuário preenche o formulário com um email inválido.
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que o email inserido é inválido.
 
-|    Caso de Teste    |  **CT-03 - Atualizar Conteúdos** |                                                                                         
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-03 - O sistema deve permitir que o usuário criador de conteúdo possa criar, editar, visualizar e excluir publicações. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue editar suas publicações produzidas anteriormente. |        
-|       Passos        | 1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar em "Área de criação" <br> 3) O usuário deve escolher o conteúdo que deseja editar em seu histórico de publicações <br> 4) Clicar no ícone de edição <br> 5) Editar o conteúdo desejado <br> 6) Clicar em "Publicar".
-| Critérios de Êxito  |  O sistema deve permitir que o usuário atualize suas publicações de forma fácil e descomplicada. |
+3. **Registro com Senha Fraca:**
+   - **Descrição:** Um usuário tenta se registrar com uma senha fraca.
+   - **Passos:**
+     1. O usuário acessa a página de registro.
+     2. O usuário preenche o formulário com uma senha fraca (por exemplo, menos de 6 caracteres).
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que a senha inserida é fraca.
 
-|    Caso de Teste    |  **CT-04 - Calcular IMC** |                                                                                         
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-04 -	O sistema deve ter um campo IMC para que os usuários que consomem conteúdo possam fazer o cálculo do seu índice de massa corporal com facilidade. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue inserir sua altura e peso no aplicativo, a fim de realizar o cálculo do seu índice de massa corporal. |        
-|       Passos        |  1) Com o login realizado, o usuário deve clicar no menu <br> 2) Clicar em "Calcule seu IMC" <br> 3)  Preencher os campos de peso, altura, idade e gênero e clicar em "Calcular". |
-| Critérios de Êxito  |  O sistema deve realizar o cálculo do IMC do usuário sem apresentar falhas. |
+4. **Registro com Email Já Existente:**
+   - **Descrição:** Um usuário tenta se registrar com um email que já está registrado no sistema.
+   - **Preparação:** Um usuário já está registrado com o email que será utilizado no teste.
+   - **Passos:**
+     1. O usuário acessa a página de registro.
+     2. O usuário preenche o formulário com um email já registrado.
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que o email inserido já está em uso.
 
-|    Caso de Teste    |  **CT-05 - Cadastro de usuário** |                                                                      
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
-|  Objetivo do teste  |  Verificar se o usuário consegue realizar o cadastro de um perfil. |
-|       Passos        |  1) Na tela de login, clicar em "Registre-se" <br> 2) Inserir as informações solicitadas para o cadastro <br> 3) Clicar em "Registre-se" para concluir o cadastro.
-| Critérios de Êxito  |  O sistema deve permitir que o usuário cadastre seu perfil. |
+### Casos de Teste para Login:
 
-|    Caso de Teste    |  **CT-06 - Visualização de conteúdos** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-06 - O sistema deve permitir que os usuários visualizem os conteúdos disponibilizados através de abas presentes no menu principal do aplicativo.|     
-|  Objetivo do teste  |  Verificar se o usuário consegue transitar entre as telas para visualizar conteúdos postados por criadores de conteúdo. |
-|       Passos        |  1) Com o login realizado, o usuário estará na tela "Home" <br> 2) O usuário deve clicar em alguma publicação existente <br> 3) O usuário deve clicar em "Destaques" na barra inferior da aplicação e selecionar uma publicação <br> 4) O usuário deve clicar no menu principal e clicar em exercícios físicos, e selecionar a publicação desejada.
-| Critérios de Êxito  |  O sistema deve permitir que o usuário navegue no aplicativo e visualize os conteúdos publicados. |
+1. **Login com Sucesso:**
+   - **Descrição:** Um usuário faz login com informações válidas.
+   - **Preparação:** Um usuário está registrado no sistema com email e senha válidos.
+   - **Passos:**
+     1. O usuário acessa a página de login.
+     2. O usuário preenche o formulário com o email e senha corretos.
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O usuário é redirecionado para a página principal/logada do sistema.
 
-|    Caso de Teste    |  **CT-07 - Publicar informações nutricionais** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-07 - O sistema deve permitir que o usuário criador de conteúdo possa inserir informações nutricionais em uma tabela|     
-|  Objetivo do teste  | Verificar se o usuário criador de conteúdo consegue gerar uma tabela com informações nutricionais de alimentos. |
-|       Passos        |  1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar em "Área de criação" <br> 3) Clicar em "Adicionar conteúdo" <br> 4) O usuário deve produzir o conteúdo desejado usando ferramentas de edição de texto que permitem inserir tabelas na publicação <br> 5) Ao terminar de produzir o conteúdo, o usuário deve clicar em "Publicar".|
-| Critérios de Êxito  |  O sistema deve permitir que o usuário crie uma tabela com informações nutricionais. |
+2. **Login com Email Inválido:**
+   - **Descrição:** Um usuário tenta fazer login com um email inválido.
+   - **Passos:**
+     1. O usuário acessa a página de login.
+     2. O usuário preenche o formulário com um email inválido.
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que o email inserido é inválido.
 
-|    Caso de Teste    |  **CT-08 - Upload de arquivos** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-08 - O sistema deve permitir que o usuário criador de conteúdo possa fazer upload de fotos para complementar as informações fornecidas.|     
-|  Objetivo do teste  | Verificar se o usuário consegue fazer upload de fotos e vídeos no aplicativo. |
-|       Passos        |  1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar em "Área de criação" <br> 3) Clicar em "Adicionar conteúdo" <br> 4) O usuário deve produzir o conteúdo desejado usando ferramentas de edição de texto que permitem inserir tabelas na publicação <br> 5) O usuário deve clicar no ícone "Upload" para carregar o conteúdo complementar desejado <br> 6) Ao terminar de produzir o conteúdo, o usuário deve clicar em "Publicar".
-| Critérios de Êxito  |  O sistema deve permitir que o usuário faça upload de conteúdos complementares sem dificuldades. |
+3. **Login com Senha Incorreta:**
+   - **Descrição:** Um usuário tenta fazer login com uma senha incorreta.
+   - **Preparação:** Um usuário está registrado no sistema com um email válido e uma senha conhecida.
+   - **Passos:**
+     1. O usuário acessa a página de login.
+     2. O usuário preenche o formulário com o email válido e uma senha incorreta.
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que a senha inserida está incorreta.
 
-|    Caso de Teste    |  **CT-09 - Exclusão de conteúdo** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-03 - O sistema deve permitir que o usuário criador de conteúdo possa criar, editar, visualizar e excluir publicações.|     
-|  Objetivo do teste  | Verificar se o usuário consegue realizar a exclusão de uma publicação. |
-|       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar em "Área de criação" <br> 3) O usuário deve escolher o conteúdo que deseja excluir em seu histórico dde publicações <br> 4) Clicar no ícone de excluir <br> 5) Exclua o conteúdo desejado.
-| Critérios de Êxito  |  O sistema deve permitir que o usuário exclua publicações. |
+4. **Login com Email Não Registrado:**
+   - **Descrição:** Um usuário tenta fazer login com um email que não está registrado no sistema.
+   - **Passos:**
+     1. O usuário acessa a página de login.
+     2. O usuário preenche o formulário com um email não registrado.
+     3. O usuário envia o formulário.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que o email inserido não está registrado.
 
-|    Caso de Teste    |  **CT-10 - Edição de perfil** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
-|  Objetivo do teste  | Verificar se o usuário consegue editar seu perfil. |
-|       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar no ícone de perfil <br> 3) Após acessar o perfil, clicar em "Editar perfil" <br> 4) O usuário deve alterar as informações desejadas <br> 5) Clicar em "Confirmar alterações" para realizar a edição de seu perfil.
-| Critérios de Êxito  |  O sistema deve permitir que o usuário edite seu perfil. |
+### Casos de teste para tela de criação
 
-|    Caso de Teste    |  **CT-10 - Exclusão de perfil** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
-|  Objetivo do teste  | Verificar se o usuário consegue excluir seu perfil. |
-|       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar no ícone de perfil <br> 3) Após acessar o perfil, clicar em "Excluir perfil" <br> 4) Clicar em "Confirmar exclusão do perfil" 
-| Critérios de Êxito  |  O sistema deve permitir que o usuário exclua seu perfil. |
+1. **Publicar conteúdo com sucesso:**
+   - **Descrição:** Um usuário publica o conteúdo desejado sem dificuldades.
+   - **Passos:**
+     1. O usuário acessa a tela de criação.
+     2. O usuário escreve seu conteúdo na área de texto.
+     3. O usuário envia a publicação.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de sucesso indicando que o conteúdo foi publicado.
 
-|    Caso de Teste    |  **CT-11 - Visualização de perfil** |                                                                        
-| :-----------------: | :-----------------------------------------------------------------------------------------------: |
-| Requisito Associado | RF-05 - O sistema deve permitir que o usuário possa cadastrar, alterar e excluir sua conta. |     
-|  Objetivo do teste  | Verificar se o usuário consegue visualizar seu perfil. |
-|       Passos        |   1) Com o login realizado, o usuário deve clicar no menu <br> 2) Após acessar o menu, clicar no ícone de perfil e visualizar as informações 
-| Critérios de Êxito  |  O sistema deve permitir que o usuário visualize seu perfil. |
+
+2. **Erro ao publicar conteúdo:**
+   - **Descrição:** Um usuário tenta publicar o conteúdo sem sucesso.
+   - **Passos:**
+     1. O usuário acessa a tela de criação.
+     2. O usuário deixa a área de texto em branco.
+     3. O usuário tenta enviar a publicação.
+   - **Resultado Esperado:** O sistema exibe uma mensagem de erro indicando que o conteúdo não foi publicado.
+
+3. **Upload de imagem:**
+   - **Descrição:** Um usuário seleciona uma imagem para complementar sua publicação.
+   - **Passos:**
+     1. O usuário acessa a tela de criação.
+     2. O usuário clica em "upload".
+     3. O usuário adiciona uma imagem.
+   - **Resultado Esperado:** O sistema permite que o usuário faça upload de imagens.
+
+4. ** :**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário acessa a tela de criação.
+     2. O usuário ".
+     3. O usuário .
+   - **Resultado Esperado:** O sistema permite que o usuário faça upload de imagens.
