@@ -1,45 +1,138 @@
-# Plano de Testes de Usabilidade
+# Registro de Testes de Usabilidade
 
-# Plano de Testes de Usabilidade
+### Casos de Teste de Usabilidade para Registro:
 
-O propósito deste teste é verificar a performance alcançada pelos participantes e o entendimento das funções utilizadas no sistema, com a finalidade de realizar alterações necessárias.
+1. **Facilidade de Preenchimento do Formulário:**
+   - **Descrição:** Testar a facilidade de preenchimento do formulário de registro.
+   - **Passos:**
+     1. O usuário acessa a página de registro.
+     2. O usuário analisa a disposição dos campos e a clareza das instruções.
+     3. O usuário preenche o formulário com informações válidas.
+   - **Avaliação:** O usuário consegue preencher o formulário facilmente? Os campos estão bem organizados e as instruções são claras?
 
-Os testes vão acontecer de maneira remota, utilizando dois participantes, sendo um usuário criador de conteúdos e um usuário que consome conteúdos, serão gravados, visando complementar o questionário que será aplicado logo após o teste da aplicação FitFocus
+2. **Feedback Visual durante o Preenchimento:**
+   - **Descrição:** Testar o feedback visual durante o preenchimento do formulário de registro.
+   - **Passos:**
+     1. O usuário acessa a página de registro.
+     2. O usuário começa a preencher o formulário.
+     3. O sistema fornece feedback visual imediato (por exemplo, mudança de cor dos campos, ícones de validação).
+   - **Avaliação:** O sistema fornece feedback visual claro e imediato durante o preenchimento do formulário?
 
-## Lista de tarefas
+### Casos de Teste de Usabilidade para Login:
 
-| Número da Tarefa | Descrição da Tarefa                                              |
-| ---------------- | ---------------------------------------------------------------- |
-| 01               | Crie uma conta                                                   |
-| 02               | Efetue login                                                     |
-| 03               | Crie uma publicação                                              |
-| 04               | Edite uma publicação                                             |
-| 05               | Visualize os detalhes de uma publicação                          |
-| 06               | Exclua uma publicação                                            |
-| 07               | Vá até a tela inicial                                            |
-| 08               | Vá até a tela "Destaques"                                        |
-| 09               | Navegue pelo menu principal                                      |
-| 10               | Vá até a tela "Calcular IMC" e insira suas informações           |        
-| 11               | Edite seu perfil                                                 |
-| 12               | Exclua seu perfil                                                |
+1. **Clareza das Mensagens de Erro:**
+   - **Descrição:** Testar a clareza das mensagens de erro durante o processo de login.
+   - **Passos:**
+     1. O usuário acessa a página de login.
+     2. O usuário tenta fazer login com informações inválidas (email incorreto, senha incorreta).
+     3. O sistema exibe mensagens de erro.
+   - **Avaliação:** As mensagens de erro são claras e informativas? Elas ajudam o usuário a corrigir os problemas?
 
-Por meio deste questionário vamos colher informações sobre as opiniões dos participantes do teste de usabilidade, que será realizado na aplicação HortiDot. As informações fornecidas são vitais para o aprimoramento do sistema.
+2. **Navegação Intuitiva após o Login:**
+   - **Descrição:** Testar a navegação intuitiva após o login bem-sucedido.
+   - **Passos:**
+     1. O usuário é redirecionado para a página principal/logada do sistema.
+     2. O usuário navega pelo sistema para realizar uma ação específica (por exemplo, visualizar o perfil, fazer uma postagem).
+   - **Avaliação:** A navegação após o login é intuitiva e fácil de entender? O usuário encontra facilmente o que procura?
 
-## Questionário de avaliação de usabilidade (SUS)
+3. **Facilidade de Recuperação de Senha:**
+   - **Descrição:** Testar a facilidade de recuperação de senha.
+   - **Passos:**
+     1. O usuário acessa a página de login.
+     2. O usuário seleciona a opção de recuperação de senha.
+     3. O usuário segue as instruções para recuperar a senha.
+   - **Avaliação:** O processo de recuperação de senha é claro e fácil de entender? O usuário consegue recuperar a senha sem dificuldades?
 
-O método de avaliação System Usability Scale consiste em um questionário com 10 questões em escala Likert aplicado após o usuário usar o sistema ou conhecer como ele funciona. O SUS possui um possui um método de cálculo da pontuação de forma normalizada: itens ímpares (1, 3, 5, 7, 9) subtrai-se 1 da pontuação que o usuário respondeu, e itens pares (2 , 4, 6, 8, 10) subtrai-se a resposta do usuário de 5. Após isso, soma-se todos os valores das 10 respostas convertidas e multiplica-se por 2.5. Essa é a pontuação final, que pode ir de 0 a 100. 
+### Casos de Teste de Usabilidade para Criação:
 
-| | Itens                                                | Discordo Completamente | Discordo | Não Concordo e Nem Discordo | Concordo | Concordo Completamente |
-|-| ---------------------------------------------------- | ---------- | ---- | --- | ----- | --------- |
-||                                                          | 1          | 2    | 3   | 4     | 5         |
-|1| Eu acho que gostaria de usar esse sistema com frequência.|            |      |     |       |           |
-|2| Eu acho o sistema desnecessariamente complexo.           |            |      |     |       |           |
-|3| Eu achei o sistema fácil de usar.                        |            |      |     |       |           |
-|4| Eu acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos para usar o sistema.| | | | | |
-|5| Eu acho que as várias funções do sistema estão muito bem integradas. | | | | | |
-|6| Eu acho que o sistema apresenta muita inconsistência. | | | | | |
-|7| Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente. | | | | | |
-|8|Eu achei o sistema atrapalhado de usar.
-|9| Eu me senti confiante ao usar o sistema. | | | | | |
-|10| Eu precisei aprender várias coisas novas antes de conseguir usar o sistema. | | | | | | 
+1. **Facilidade de navegação:**
+   - **Descrição:** Avaliar a facilidade com que os usuários podem navegar pela tela de criação.
+   - **Passos:**
+     1. O usuário acessa a tela de criação de conteúdo.
+     2. O usuário navega pela tela para realizar uma ação (criar um texto, fazer upload de imagens).
+   - **Avaliação:** A navegação na tela de criação é fácil de entender? O usuário encontra facilmente o que procura?
+
+2. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+3. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+### Casos de Teste de Usabilidade para IMC:
+
+1. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+2. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+3. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+### Casos de Teste de Usabilidade para Exercícios:
+
+1. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+2. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+3. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+### Casos de Teste de Usabilidade para Perfil:
+
+1. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+2. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
+3. **:**
+   - **Descrição:** .
+   - **Passos:**
+     1. O usuário 
+     2. O usuário 
+   - **Avaliação:** 
+
 
