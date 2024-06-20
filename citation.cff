@@ -1,0 +1,25 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: Bezerra Moura
+    given-names: Enzo 
+  - family-names: da Rosa Santana de Barros
+    given-names: Ingrid 
+  - family-names: das Graças Barbosa
+    given-names: Karina 
+  - family-names: Lopes Pimenta
+    given-names: Lorena 
+  - family-names: Gonçalves Vitolo
+    given-names: Rafael 
+  - family-names: Magalhaes Resende Ferreira
+    given-names: Samuel 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Dias Maciel
+    given-names: Wesley 
+keywords:
+  - FitFocus
+  - Receitas
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus
+version: 1.0.0
+date-released: 2024-06-23
