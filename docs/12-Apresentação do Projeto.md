@@ -3,8 +3,8 @@
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
 ## Título do Projeto
-
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/e2cdfedce5d2fbea3595fc1b281a4bc6a168a393/docs/img/Logo.png" alt="">
+### Projeto FitFocus
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/5a06da314228b3fe2518d06f3172ca384b7eae19/docs/img/Logo.png" width="300" height="250">
 
 ## Identidade Visual (Marca, Design)
 
