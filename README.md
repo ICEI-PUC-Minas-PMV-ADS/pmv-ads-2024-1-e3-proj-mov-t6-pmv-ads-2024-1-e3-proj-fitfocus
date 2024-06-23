@@ -26,7 +26,7 @@ O projeto se trata da criação de um aplicativo que facilite o acesso do públi
 
 ## Instruções de utilização
 
-O arquivo .apk da aplicação se encontra --- deste repositório. Basta instalá-lo em seu dispositivo móvel Android.
+O arquivo .apk da aplicação se encontra <a href = https://api-fit-61np.onrender.com/api/v1/> neste link</a>. Basta clicar no link, e instalar o apk em seu dispositivo móvel Android.
 
 # Documentação
 
