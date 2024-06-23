@@ -24,6 +24,6 @@ O framework utilizado, React Native, apresenta diversos recursos para o desenvol
 
 Utilizamos a linguagem Java (SpringBoot) para a construçao do backend, visto que um dos nossos intregrantes, o Enzo, já possuia familiaridade e sugeriu nós guiar nesse caminho.
 
-Todos os integrantes do grupo colaboraram e juntos aprendemos muito sobre React Native/Java, conseguindo assim desempenhar um bom trabalho. As atribuiçoes de cada um podem ser vistas [aqui](https://www.ted.com/playlists/574/how_to_make_a_great_presentation](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859)).
+Todos os integrantes do grupo colaboraram e juntos aprendemos muito sobre React Native/Java, conseguindo assim desempenhar um bom trabalho. As atribuiçoes de cada um podem ser vistas [aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/859).
 
 Não podemos deixar de mencionar o papel fundamental do nosso professor orientador, Wesley Dias, no sucesso do projeto. É um orientador altamente qualificado, que contribuiu significativamente com valiosas sugestões e colaborações para a equipe, sempre com dialogo e uma boa didática!
