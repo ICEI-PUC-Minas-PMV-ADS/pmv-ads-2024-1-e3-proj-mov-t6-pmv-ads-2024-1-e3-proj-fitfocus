@@ -82,27 +82,8 @@
 
  ![exer](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/fd48a44436d02a02d733d17669a1b800702a96f1/docs/img/exercicios.png)
 
-   -**Critérios de Êxito:**
+   - **Critérios de Êxito:**
 	✅O sistema altera exibe com sucesso a tela de exercicios.
 
 
-### Caso de testes para tela de Perfil
-
-1. **Alterar informações do perfil:**
-   - **Descrição:** O usuário fornece as alteraçoes para o seu perfil.
-   - **Passos:**
-     1. O usuario acessa a tela de Perfil.
-     2. O usuario altera alguma informação.
-     3. O usuario salva as alteraçoes.
-   -**Critérios de Êxito:**
-	O sistema altera com sucesso a informação do usuário.
-
-2. **Excluir informações do perfil:**
-   - **Descrição:** O usuário exclui as informações do seu perfil.
-   - **Passos:**
-     1. O usuario acessa a tela de Perfil.
-     2. O usuario exclui alguma informação.
-     3. O usuario salva as mudanças.
-   -**Critérios de Êxito:*
-	O sistema exclui com sucesso a informação do usuário.
 
