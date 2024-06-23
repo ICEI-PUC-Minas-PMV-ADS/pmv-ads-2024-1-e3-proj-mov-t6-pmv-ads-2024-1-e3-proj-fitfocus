@@ -4,8 +4,8 @@
 
 | Número  | Participante                               | Ocupação               |Usuário                 |
 | ------- | ------------------------------------------ |------------------------|------------------------|
-| 01      | Carlos Magalhaes Resende Junior            | Aux. Admnistrativo     | Criador de conteúdo    |
-| 02      | Rafael Augusto Silva                   | Prof. Ed. Fisica       | Consumidor de conteúdo |
+| 01      | Carlos Magalhaes Resende Junior            | Aux. Admnistrativo     | Consumidor de conteúdo    |
+| 02      | Rafael Augusto Silva                   | Prof. Ed. Fisica       | Criador de conteúdo |
 
 
 ### Usuario 01
