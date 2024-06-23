@@ -22,7 +22,7 @@
 
 2. **Login com Email Inválido:**
 
-![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/fd48a44436d02a02d733d17669a1b800702a96f1/docs/img/erroLogin2.png)
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/24d450076d28ed1d0923ec22fe61829f6b273ab7/docs/img/erroLogin2.png)
 
    -**Critérios de Êxito:**
 	✅O sistema exibe uma mensagem de erro.
