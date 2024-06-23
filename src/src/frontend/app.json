@@ -4,7 +4,6 @@
     "slug": "snack-fec725d3-426d-4d1c-8752-a03282040935",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,7 +14,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oznev8.snackfec725d3426d4d1c8752a03282040935"
     },
     "android": {
       "permissions": [

@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, Image, StatusBar } from 'react-native';
+import { View, Text, TextInput, StyleSheet, ScrollView, Image, StatusBar, Alert } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { useAuth } from '../auth/AuthContext';
+import { HttpStatusCode } from 'axios';
 
 const AlturaStatusBar = StatusBar.currentHeight;
 
@@ -11,21 +12,26 @@ const DetailReceita = () => {
   const route = useRoute();
   const navigation = useNavigation();
   const [recipe, setRecipe] = useState(null);
+  const [isEditing, setIsEditing] = useState(false);
+  const [title, setTitle] = useState('');
+  const [bodyText, setBodyText] = useState('');
+  const [calories, setCalories] = useState('');
   const { id } = route.params; // Obtendo o ID da receita dos parâmetros de rota
-  console.log(id);
 
   useEffect(() => {
     const fetchRecipeDetails = async () => {
       try {
-        const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/recipe/${id}`);
-        console.log(response.data);
+        const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe/${id}`);
 
         if (!response) {
           throw new Error('Failed to fetch recipe details');
         }
-        
+
         const data = await response.json();
         setRecipe(data); // Define os detalhes da receita no estado
+        setTitle(data.title);
+        setBodyText(data.bodyText);
+        setCalories(data.calories);
       } catch (error) {
         console.error('Error fetching recipe details:', error.message);
       }
@@ -33,6 +39,61 @@ const DetailReceita = () => {
 
     fetchRecipeDetails();
   }, [id]);
+
+  const handleDeleteRecipe = async () => {
+    try {
+      const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe/${id}`, {
+        method: 'DELETE',
+      });
+
+      if (response.status !== HttpStatusCode.Gone) {
+        throw new Error('Failed to delete recipe');
+      }
+      navigation.goBack(); // Volta para a tela anterior após deletar
+    } catch (error) {
+      console.error('Error deleting recipe:', error.message);
+    }
+  };
+
+  const handleUpdateRecipe = async () => {
+    try {
+      const updatedRecipe = {
+        ...recipe,
+        title,
+        bodyText,
+        calories
+      };
+
+      const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe/update`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(updatedRecipe),
+      });
+
+      console.log(response)
+      if (response.status !== HttpStatusCode.Ok) {
+        throw new Error('Failed to update recipe');
+      }
+
+      const data = await response.json();
+      setRecipe(data);
+      setIsEditing(false);
+      Alert.alert('Sucesso', 'Receita atualizada com sucesso!');
+    } catch (error) {
+      console.error('Error updating recipe:', error.message);
+      Alert.alert('Erro', 'Ocorreu um erro ao atualizar a receita');
+    }
+  };
+
+  const formatTextWithLineBreaks = (text) => {
+    const lines = text.replace(/\\n/g, '\n').split('\n');
+    
+    return lines.map((line, index) => (
+      <Text key={index} style={styles.recipeBodyText}>{line}</Text>
+    ));
+  };
 
   return (
     <View style={styles.container}>
@@ -44,20 +105,57 @@ const DetailReceita = () => {
           onPress={() => navigation.goBack()}
         />
         <IconButton
-          icon="log-out"
+          icon={isEditing ? "content-save" : "pencil"}
           size={28}
           color="#463529"
-          onPress={onLogout}
+          onPress={() => {
+            if (isEditing) {
+              handleUpdateRecipe();
+            } else {
+              setIsEditing(true);
+            }
+          }}
+        />
+        <IconButton
+          icon="delete"
+          size={28}
+          color="#463529"
+          onPress={handleDeleteRecipe}
         />
       </View>
       <ScrollView style={styles.contentContainer}>
         {recipe ? (
           <View style={styles.recipeContainer}>
             <Image source={{ uri: recipe.image }} style={styles.recipeImage} />
-            <Text style={styles.recipeTitle}>{recipe.title}</Text>
-            <Text style={styles.recipeBodyText}>{recipe.bodyText}</Text>
-            <Text style={styles.recipeCalories}>Calorias: {recipe.calories}</Text>
-            {/* Aqui você pode renderizar outros detalhes da receita, como ingredientes, instruções, etc. */}
+            {isEditing ? (
+              <TextInput
+                style={styles.input}
+                value={title}
+                onChangeText={setTitle}
+              />
+            ) : (
+              <Text style={styles.recipeTitle}>{recipe.title}</Text>
+            )}
+            {isEditing ? (
+              <TextInput
+                style={[styles.input, styles.textArea]}
+                value={bodyText}
+                onChangeText={setBodyText}
+                multiline
+              />
+            ) : (
+              formatTextWithLineBreaks(recipe.bodyText)
+            )}
+            {isEditing ? (
+              <TextInput
+                style={styles.input}
+                value={calories}
+                onChangeText={setCalories}
+                keyboardType="numeric"
+              />
+            ) : (
+              <Text style={styles.recipeCalories}>Calorias: {recipe.calories}</Text>
+            )}
           </View>
         ) : (
           <Text style={styles.placeholderText}>Carregando...</Text>
@@ -104,7 +202,7 @@ const styles = StyleSheet.create({
   recipeBodyText: {
     fontSize: 18,
     color: '#808080',
-    marginBottom: 20,
+    marginBottom: 10,
     textAlign: 'center',
   },
   recipeCalories: {
@@ -117,6 +215,20 @@ const styles = StyleSheet.create({
     color: '#808080',
     paddingHorizontal: 20,
     textAlign: 'center',
+  },
+  input: {
+    width: '100%',
+    padding: 10,
+    borderColor: '#463529',
+    borderWidth: 1,
+    borderRadius: 8,
+    marginBottom: 10,
+    fontSize: 18,
+    color: '#463529',
+    backgroundColor: '#FFFFFF',
+  },
+  textArea: {
+    height: 100,
   },
 });
 

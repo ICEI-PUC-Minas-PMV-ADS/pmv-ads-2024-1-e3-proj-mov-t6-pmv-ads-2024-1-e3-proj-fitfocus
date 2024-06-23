@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import axios from 'axios';
+import axios, { formToJSON } from 'axios';
 import * as SecureStore from 'expo-secure-store';
 import React from 'react'
 
@@ -15,7 +15,7 @@ interface AuthProps {
 
 const TOKEN_KEY = 'my-jwt';
 const USER_OBJECT_KEY = 'user-object';
-export const API_URL = 'https://api-fit-61np.onrender.com';
+export const API_URL = 'https://api-fit-edsyjosaoq-uc.a.run.app';
 
 const AuthContext = createContext<AuthProps>({});
 
@@ -37,16 +37,21 @@ export const AuthProvider = ({ children }: any) => {
     useEffect(() => {
         const loadToken = async () => {
             const token = await SecureStore.getItemAsync(TOKEN_KEY);
-            console.log(token);
+            const obj = await SecureStore.getItemAsync(USER_OBJECT_KEY);
 
-            if (token) {
+            console.log(token);
+            console.log(obj)
+
+            const userJson = JSON.parse(obj)
+
+            if (token && userJson.username) {
                 console.log("token found");
                 axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
                 setAuthState({
                     token: token,
                     authenticated: true,
-                    objeto: null
+                    objeto: obj
                 });
 
                 console.log(authState);
@@ -74,7 +79,7 @@ export const AuthProvider = ({ children }: any) => {
 
     const registerCreator = async (email: string, password: string, jobTitle: string, name: string) => {
         try {
-            return await axios.post(`https://api-fit-61np.onrender.com/api/v1/contentCreator`, { email, password, jobTitle, name });
+            return await axios.post(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/contentCreator`, { email, password, jobTitle, name });
         } catch (e) {
             const errorMessage = (e.response && e.response.data && e.response.data.msg) ? e.response.data.msg : 'An error occurred';
             return { error: true, msg: errorMessage };
@@ -86,7 +91,7 @@ export const AuthProvider = ({ children }: any) => {
     try {
         const body = `{"email": "${email}", "password": "${password}"}`;
 
-        const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/user/login`, {
+        const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/user/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -130,7 +135,7 @@ const loginCreator = async (email:string, password: string) => {
     try {
         const body = `{"email": "${email}", "password": "${password}"}`;
 
-        const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/contentCreator/login`, {
+        const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/contentCreator/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

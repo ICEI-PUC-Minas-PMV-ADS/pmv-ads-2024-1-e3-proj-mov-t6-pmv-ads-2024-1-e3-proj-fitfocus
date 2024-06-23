@@ -19,7 +19,7 @@ const Home = () => {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await fetch('https://api-fit-61np.onrender.com/api/v1/recipe');
+        const response = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe');
         if (!response.ok) {
           throw new Error('Failed to fetch recipes');
         }
@@ -35,7 +35,7 @@ const Home = () => {
 
     const fetchPost = async () => {
       try {
-        const response = await fetch('https://api-fit-61np.onrender.com/api/v1/post');
+        const response = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post');
         if (!response.ok) {
           throw new Error('Failed to fetch recipes');
         }
@@ -62,46 +62,64 @@ const Home = () => {
     navigation.navigate('DetailPost', { id }); // Passando o ID como parâmetro
   }
 
-  const renderRecipeItem = ({ item }) => (
-    <TouchableOpacity onPress={() => navigateToDetailReceita(item.id)}>
-      <View style={styles.recipeContainer}>
+  const renderRecipeItem = ({ item }) => {
+    return (
+      <TouchableOpacity onPress={() => navigateToDetailReceita(item.id)}>
+        <View style={styles.recipeContainer}>
         {typeof item.image === 'string' && (
-          <Image source={{ uri: Buffer.from(item.image, 'base64').toString('utf8') }} style={styles.recipeImage} />
+          <Image source={{ uri: `data:image/jpeg;base64,${item.image}` }} style={styles.recipeImage} />
         )}
-        <Text style={styles.recipeTitle}>{item.title}</Text>
-        <Text style={styles.recipeBodyText}>{item.bodyText}</Text>
-        <Text style={styles.recipeCalories}>Calorias: {item.calories}</Text>
-      </View>
-    </TouchableOpacity>
-  );
+          <Text style={styles.recipeTitle}>{item.title}</Text>
+          <Text style={styles.recipeBodyText} numberOfLines={3} ellipsizeMode="tail">
+            {item.bodyText}
+          </Text>
+          <Text style={styles.recipeCalories}>Calorias: {item.calories}</Text>
+        </View>
+      </TouchableOpacity>
+    );
+  };
 
   const renderpostItem = ({ item }) => (
     <TouchableOpacity onPress={() => navigateToDetailPost(item.id)}>
       <View style={styles.recipeContainer}>
         {typeof item.image === 'string' && (
-          <Image source={{ uri: Buffer.from(item.image, 'base64').toString('utf8') }} style={styles.recipeImage} />
+          <Image source={{ uri: `data:image/jpeg;base64,${item.image}` }} style={styles.recipeImage} />
         )}
         <Text style={styles.recipeTitle}>{item.title}</Text>
-        <Text style={styles.recipeBodyText}>{item.bodyText}</Text>
+        <Text style={styles.recipeBodyText} numberOfLines={3} ellipsizeMode="tail">{item.bodyText}</Text>
       </View>
     </TouchableOpacity>
   );
+  
 
   const handleRefresh = async () => {
     setRefreshing(true); // Define o estado de recarregamento como verdadeiro
-    // Aqui você pode fazer uma nova solicitação para obter os dados mais recentes
+    
     try {
-      const response = await fetch('https://api-fit-61np.onrender.com/api/v1/recipe');
-      if (!response.ok) {
+      console.log( "reload")
+      // Requisição para obter as receitas
+      const recipesResponse = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe');
+      if (!recipesResponse.ok) {
         throw new Error('Failed to fetch recipes');
       }
-      const data = await response.json();
-      setRecipesData(data);
+      const recipesData = await recipesResponse.json();
+      setRecipesData(recipesData);
+  
+      // Requisição para obter os posts
+      const postsResponse = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post');
+      if (!postsResponse.ok) {
+        throw new Error('Failed to fetch posts');
+      }
+      const postsData = await postsResponse.json();
+      setPostData(postsData);
+  
     } catch (error) {
-      console.error('Error fetching recipes:', error.message);
+      console.error('Error fetching data:', error.message);
     }
+  
     setRefreshing(false); // Define o estado de recarregamento como falso após obter os dados
   };
+  
   
 
   return (
@@ -119,6 +137,7 @@ const Home = () => {
           icon="account"
           size={28}
           color="#463529"
+          onPress={() => navigation.navigate('Perfil')}
         />
         <IconButton
           style={styles.headerItem}

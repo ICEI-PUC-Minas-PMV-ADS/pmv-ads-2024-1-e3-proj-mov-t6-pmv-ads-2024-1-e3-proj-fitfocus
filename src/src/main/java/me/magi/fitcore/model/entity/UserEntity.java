@@ -14,7 +14,7 @@ public class UserEntity implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
-    private UUID id;
+    private Long id;
 
     private String name;
 
@@ -31,7 +31,7 @@ public class UserEntity implements UserDetails {
 
     private String cpf;
 
-    public UUID getId() {
+    public Long getId() {
         return id;
     }
 

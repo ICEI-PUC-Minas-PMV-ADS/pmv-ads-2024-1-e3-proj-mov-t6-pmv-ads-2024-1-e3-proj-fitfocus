@@ -15,5 +15,5 @@ public interface PostService {
 
     public Iterable<PostEntity> listAllPost();
 
-    public Optional<PostEntity> updatePostById(Long id);
+    public PostEntity updatePostById(PostEntity postEntity);
 }

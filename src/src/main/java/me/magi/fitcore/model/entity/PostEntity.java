@@ -16,6 +16,8 @@ public class PostEntity {
 
     private String title;
 
+    @Lob
+    @Column(name = "bodyText", columnDefinition = "TEXT")
     private String bodyText;
 
     private Date registerDay;

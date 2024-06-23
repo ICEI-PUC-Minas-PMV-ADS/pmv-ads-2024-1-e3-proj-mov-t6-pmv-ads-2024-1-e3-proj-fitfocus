@@ -26,6 +26,7 @@ public class PostServiceImpl implements PostService {
 
     @Override
     public void removePost(Long id) {
+        repository.deleteById(id);
 
     }
 
@@ -39,7 +40,16 @@ public class PostServiceImpl implements PostService {
         return repository.findAll();
     }
 
-    public Optional<PostEntity> updatePostById(Long id) {
-        return repository.findById(id);
+    public PostEntity updatePostById(PostEntity postEntity) {
+        Optional<PostEntity> optionalPost = repository.findById(postEntity.getId());
+        if (optionalPost.isPresent()) {
+            PostEntity post = optionalPost.get();
+            post.setTitle(postEntity.getTitle());
+            post.setBodyText(postEntity.getBodyText());
+            post.setImage(postEntity.getImage());
+            return repository.save(post);
+        } else {
+            throw new RuntimeException("Post not found with id: " + postEntity.getId());
+        }
     }
 }

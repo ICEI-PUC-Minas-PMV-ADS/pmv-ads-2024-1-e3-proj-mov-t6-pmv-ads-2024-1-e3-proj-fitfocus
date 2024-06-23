@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, Image, StatusBar } from 'react-native';
+import { View, Text, TextInput, StyleSheet, ScrollView, Image, StatusBar, Alert } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import { useAuth } from '../auth/AuthContext';
+import { HttpStatusCode } from 'axios';
 
 const AlturaStatusBar = StatusBar.currentHeight;
 
@@ -11,55 +12,137 @@ const DetailPost = () => {
   const route = useRoute();
   const navigation = useNavigation();
   const [post, setPost] = useState(null);
-  const { id } = route.params; // Obtendo o ID da receita dos parâmetros de rota
-  console.log(id);
+  const [isEditing, setIsEditing] = useState(false);
+  const [title, setTitle] = useState('');
+  const [bodyText, setBodyText] = useState('');
+  const [calories, setCalories] = useState('');
+  const { id } = route.params;
 
   useEffect(() => {
-    const fetchRecipeDetails = async () => {
+    const fetchPostDetails = async () => {
       try {
-        const response = await fetch(`https://api-fit-61np.onrender.com/api/v1/post/${id}`);
-        console.log(response.data);
-
+        const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post/${id}`);
         if (!response) {
-          throw new Error('Failed to fetch recipe details');
+          throw new Error('Failed to fetch post details');
         }
-        
         const data = await response.json();
-        setPost(data); // Define os detalhes da receita no estado
+        setPost(data);
+        setTitle(data.title);
+        setBodyText(data.bodyText);
+        setCalories(data.calories);
       } catch (error) {
-        console.error('Error fetching recipe details:', error.message);
+        console.error('Error fetching post details:', error.message);
       }
     };
-
-    fetchRecipeDetails();
+    fetchPostDetails();
   }, [id]);
+
+  const handleDeletePost = async () => {
+    try {
+      const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post/${id}`, {
+        method: 'DELETE',
+      });
+      if (response.status !== HttpStatusCode.Gone) {
+        throw new Error('Failed to delete post');
+      }
+      navigation.goBack();
+    } catch (error) {
+      console.error('Error deleting post:', error.message);
+    }
+  };
+
+  const handleUpdatePost = async () => {
+    try {
+      const updatedPost = { ...post, title, bodyText, calories };
+      const response = await fetch(`https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post/update`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updatedPost),
+      });
+
+      console.log(response)
+      if (response.status !== HttpStatusCode.Ok) {
+        throw new Error('Failed to update post');
+      }
+      const data = await response.json();
+      setPost(data);
+      setIsEditing(false);
+      Alert.alert('Sucesso', 'Post atualizado com sucesso!');
+    } catch (error) {
+      console.error('Error updating post:', error.message);
+      Alert.alert('Erro', 'Ocorreu um erro ao atualizar o post');
+    }
+  };
+
+  const formatTextWithLineBreaks = (text) => {
+    const lines = text.replace(/\\n/g, '\n').split('\n');
+    
+    return lines.map((line, index) => (
+      <Text key={index} style={styles.blogBodyText}>{line}</Text>
+    ));
+  };
+
+  if (!post) {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.placeholderText}>Carregando...</Text>
+      </View>
+    );
+  }
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <IconButton
-          icon="arrow-left"
-          size={28}
-          color="#463529"
-          onPress={() => navigation.goBack()}
-        />
-        <IconButton
-          icon="log-out"
-          size={28}
-          color="#463529"
-          onPress={onLogout}
-        />
-      </View>
       <ScrollView style={styles.contentContainer}>
-        {post ? (
-          <View style={styles.post}>
-            <Image source={{ uri: post.image }} style={styles.post} />
-            <Text style={styles.post}>{post.title}</Text>
-            <Text style={styles.post}>{post.bodyText}</Text>
+        <View style={styles.header}>
+          <IconButton
+            icon="arrow-left"
+            size={28}
+            color="#463529"
+            onPress={() => navigation.goBack()}
+            style={styles.backButton}
+          />
+          <Text style={styles.blogTitle}>{post.title}</Text>
+          <View style={styles.headerButtons}>
+            <IconButton
+              icon={isEditing ? "content-save" : "pencil"}
+              size={28}
+              color="#463529"
+              onPress={() => {
+                if (isEditing) {
+                  handleUpdatePost();
+                } else {
+                  setIsEditing(true);
+                }
+              }}
+            />
+            <IconButton
+              icon="delete"
+              size={28}
+              color="#463529"
+              onPress={handleDeletePost}
+            />
           </View>
-        ) : (
-          <Text style={styles.placeholderText}>Carregando...</Text>
-        )}
+        </View>
+        <Image source={{ uri: `data:image/jpeg;base64,${post.image}` }} style={styles.postImage} />
+        <View style={styles.blogContent}>
+          {isEditing ? (
+            <>
+              <TextInput
+                style={styles.input}
+                value={title}
+                onChangeText={setTitle}
+              />
+              <TextInput
+                style={[styles.input, styles.textArea]}
+                value={bodyText}
+                onChangeText={setBodyText}
+                multiline
+              />
+            </>
+          ) : (
+            formatTextWithLineBreaks(post.bodyText)
+          )}
+        </View>
       </ScrollView>
     </View>
   );
@@ -73,48 +156,68 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     flex: 1,
+    padding: 10,
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 10,
-    backgroundColor: '#F9E9D1',
+    marginBottom: 20,
   },
-  recipeContainer: {
-    paddingHorizontal: 20,
-    paddingBottom: 20,
-    alignItems: 'center',
+  backButton: {
+    marginRight: 10,
   },
-  recipeImage: {
+  headerButtons: {
+    flexDirection: 'row',
+  },
+  postImage: {
     width: '100%',
-    height: 200,
-    marginBottom: 10,
-    borderRadius: 8,
+    height: 250,
+    resizeMode: 'cover',
+    borderRadius: 10,
+    marginBottom: 20,
   },
-  recipeTitle: {
+  blogTitle: {
+    flex: 1,
     fontSize: 24,
     fontWeight: 'bold',
-    marginBottom: 10,
     color: '#463529',
     textAlign: 'center',
   },
-  recipeBodyText: {
-    fontSize: 18,
-    color: '#808080',
-    marginBottom: 20,
-    textAlign: 'center',
+  blogContent: {
+    paddingHorizontal: 20,
   },
-  recipeCalories: {
+  blogBodyText: {
     fontSize: 18,
-    color: '#808080',
-    textAlign: 'center',
+    color: '#463529',
+    marginBottom: 20,
+    textAlign: 'justify',
+  },
+  blogCalories: {
+    fontSize: 18,
+    color: '#463529',
+    textAlign: 'right',
+  },
+  input: {
+    width: '100%',
+    padding: 10,
+    borderColor: '#463529',
+    borderWidth: 1,
+    borderRadius: 8,
+    marginBottom: 10,
+    fontSize: 18,
+    color: '#463529',
+    backgroundColor: '#FFFFFF',
+  },
+  textArea: {
+    height: 100,
   },
   placeholderText: {
     fontSize: 18,
     color: '#808080',
     paddingHorizontal: 20,
     textAlign: 'center',
+    marginTop: '50%',
   },
 });
 

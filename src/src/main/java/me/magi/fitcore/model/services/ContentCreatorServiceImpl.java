@@ -24,9 +24,8 @@ public class ContentCreatorServiceImpl implements ContentCreatorService {
     }
 
     @Override
-    public void removeContentCreator(String id) {
-
-
+    public void removeContentCreator(Long id) {
+        contentCreatorRepository.deleteById(id);
     }
 
     @Override
@@ -40,7 +39,7 @@ public class ContentCreatorServiceImpl implements ContentCreatorService {
     }
 
     @Override
-    public void updateContentCreatorById(String id, ContentCreatorEntity contentCreator) {
+    public void updateContentCreatorById(Long id, ContentCreatorEntity contentCreator) {
     }
 
     @Override

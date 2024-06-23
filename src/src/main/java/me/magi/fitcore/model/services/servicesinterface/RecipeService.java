@@ -14,6 +14,6 @@ public interface RecipeService {
 
     public Iterable<RecipeEntity> listAllRecipe();
 
-    public RecipeEntity updateRecipeById(Long id, RecipeEntity recipe);
+    public RecipeEntity updateRecipeById(RecipeEntity recipe);
 
 }

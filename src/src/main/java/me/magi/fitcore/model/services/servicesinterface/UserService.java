@@ -14,7 +14,7 @@ public interface UserService {
     
     public List<UserEntity> listAllUser();
 
-    public void updateUserById(Long id, UserEntity userRequestDto);
+    UserEntity updateUser(UserEntity updateUserDTO);
 
     public UserEntity findUserByEmailAndPassword(String email, String password);
 

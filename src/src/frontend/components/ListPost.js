@@ -16,7 +16,7 @@ const ListPost = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('https://api-fit-61np.onrender.com/api/v1/post');
+        const response = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/post');
         if (!response) {
           throw new Error('Failed to fetch posts');
         }
@@ -50,13 +50,13 @@ const ListPost = () => {
       <View style={styles.content}>
         <TextInput
           style={styles.searchInput}
-          placeholder="Search posts..."
+          placeholder="Procurando posts..."
           value={searchTerm}
           onChangeText={handleSearch}
         />
-        <Text style={styles.title}>Post List</Text>
+        <Text style={styles.title}>Listagem de Posts</Text>
         {loading ? (
-          <Text>Loading...</Text>
+          <Text>Carregando...</Text>
         ) : (
           <FlatList
             data={filteredPosts}
@@ -65,8 +65,8 @@ const ListPost = () => {
               <TouchableOpacity
                 style={styles.postContainer}
                 onPress={() => navigateToDetailPost(item.id)}
-              >
-                <ImageBackground source={{ uri: Buffer.from(item.image, 'base64').toString('utf8') }} style={styles.postImage}>
+              >    
+                <ImageBackground source={{ uri: `data:image/jpeg;base64,${item.image}` }} style={styles.postImage}>
                   <View style={styles.postContent}>
                     <Text style={styles.postTitle}>{item.title}</Text>
                     <Text style={styles.postContentText}>{item.content}</Text>
@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 1,
     borderRadius: 8,
+    marginTop: 35,
     marginBottom: 20,
     paddingHorizontal: 10,
   },

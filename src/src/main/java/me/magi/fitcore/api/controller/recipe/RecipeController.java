@@ -1,5 +1,8 @@
 package me.magi.fitcore.api.controller.recipe;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import me.magi.fitcore.config.StringEscapeUtil;
 import me.magi.fitcore.model.entity.RecipeEntity;
 import me.magi.fitcore.model.services.RecipeServiceImpl;
 import org.springframework.http.HttpStatus;
@@ -13,10 +16,12 @@ import java.util.Optional;
 public class RecipeController {
 
     private final RecipeServiceImpl service;
+    private final ObjectMapper objectMapper;
 
 
-    public RecipeController(RecipeServiceImpl service) {
+    public RecipeController(RecipeServiceImpl service, ObjectMapper objectMapper) {
         this.service = service;
+        this.objectMapper = objectMapper;
     }
 
     @GetMapping("/recipe")
@@ -26,9 +31,9 @@ public class RecipeController {
     @PostMapping("/recipe")
     @ResponseStatus(HttpStatus.CREATED)
     public void addNewRecipe(@RequestBody RecipeEntity recipe) {
+        System.out.println(recipe.toString());
         service.addNewRecipe(recipe);
     }
-
     @GetMapping("/recipe/{id}")
     @ResponseStatus(HttpStatus.FOUND)
     public Optional<RecipeEntity> findRecipeById(@PathVariable Long id) {
@@ -41,10 +46,10 @@ public class RecipeController {
         service.removeRecipe(id);
     }
 
-    @PatchMapping("/recipe/{id}")
+    @PostMapping("/recipe/update")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void UpdateRecipe(@PathVariable Long id, @RequestBody RecipeEntity recipe) {
-        service.updateRecipeById(id, recipe);
+    public void UpdateRecipe(@RequestBody RecipeEntity recipe) {
+        service.updateRecipeById(recipe);
     }
 
 }

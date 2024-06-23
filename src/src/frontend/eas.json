@@ -1,6 +1,8 @@
 {
   "cli": {
-    "version": ">= 9.1.0"
+    "version": ">= 9.1.0",
+    
+    "requireCommit": true
   },
   "build": {
     "development": {
@@ -8,9 +10,16 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "android": {
+        "buildType": "apk"
+      }
     },
-    "production": {}
+    "production": {
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      }
+    }
   },
   "submit": {
     "production": {}

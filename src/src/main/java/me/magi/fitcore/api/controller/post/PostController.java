@@ -1,5 +1,8 @@
 package me.magi.fitcore.api.controller.post;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import me.magi.fitcore.config.StringEscapeUtil;
 import me.magi.fitcore.model.entity.PostEntity;
 import me.magi.fitcore.model.entity.RecipeEntity;
 import me.magi.fitcore.model.services.PostServiceImpl;
@@ -14,9 +17,11 @@ import java.util.Optional;
 @RequestMapping("/api/v1")
 public class PostController {
     private final PostServiceImpl service;
+    private final ObjectMapper objectMapper;
 
-    public PostController(PostServiceImpl service) {
+    public PostController(PostServiceImpl service, ObjectMapper objectMapper) {
         this.service = service;
+        this.objectMapper = objectMapper;
     }
 
     @GetMapping("/post")
@@ -25,10 +30,16 @@ public class PostController {
     }
     @PostMapping("/post")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addNewRecipe(@RequestBody PostEntity post) {
-        service.addNewPost(post);
+    public void addNewPost(@RequestBody PostEntity post) {
+        try {
+            // Serializar o objeto para JSON para garantir que os caracteres sejam escapados
+            String jsonString = objectMapper.writeValueAsString(post);
+            PostEntity escapedPost = objectMapper.readValue(jsonString, PostEntity.class);
+            service.addNewPost(escapedPost);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("Erro ao processar JSON", e);
+        }
     }
-
     @GetMapping("/post/{id}")
     @ResponseStatus(HttpStatus.FOUND)
     public Optional<PostEntity> findRecipeById(@PathVariable Long id) {
@@ -41,9 +52,9 @@ public class PostController {
         service.removePost(id);
     }
 
-    @PatchMapping("/post/{id}")
+    @PostMapping("/post/update")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void UpdateRecipe(@PathVariable Long id, @RequestBody PostEntity post) {
+    public void UpdateRecipe(@RequestBody PostEntity post) {
 
     }
 

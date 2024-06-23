@@ -1,7 +1,7 @@
 import { AuthProvider, useAuth } from "./auth/AuthContext";
 import { Login } from "./components/Login"
 import  Home  from "./components/Home"
-import Imc from "./components/Imc"
+import Imc from "./components/imc"
 import Exercicios from "./components/Exercicios"
 import Cadastro from "./components/Cadastro"
 import { NavigationContainer } from "@react-navigation/native";
@@ -14,6 +14,7 @@ import PostDetails from "./components/PostDetails";
 import DetailReceita from "./components/DetailReceita"
 import CreatePost from "./components/CreatePost";
 import DetailPost from "./components/DetailPost"
+import Perfil from "./components/Perfil"
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -33,7 +34,11 @@ export const Layout = () => {
 
   return (
       <NavigationContainer>
-          <Stack.Navigator>{authState?.authenticated ? (
+          <Stack.Navigator
+          screenOptions={{
+            headerShown: false, 
+          }}
+          >{authState?.authenticated ? (
             <>
               <Stack.Screen name="Home" component={Home}/>
               <Stack.Screen name="Imc" component={Imc}/>
@@ -45,11 +50,14 @@ export const Layout = () => {
               <Stack.Screen name="DetailReceita" component={DetailReceita}/>
               <Stack.Screen name="CreatePost" component={CreatePost}/>
               <Stack.Screen name="DetailPost" component={DetailPost}/>
+              <Stack.Screen name="Perfil" component={Perfil}/>
+
             </>
             ):(
             <>
-               <Stack.Screen name="Login" component={Login}></Stack.Screen>
-               <Stack.Screen name="Cadastro" component={Cadastro}></Stack.Screen>
+                          <Stack.Screen name="Login" component={Login}/>
+              <Stack.Screen name="Cadastro" component={Cadastro}/>
+
              </>
               )}
           </Stack.Navigator>

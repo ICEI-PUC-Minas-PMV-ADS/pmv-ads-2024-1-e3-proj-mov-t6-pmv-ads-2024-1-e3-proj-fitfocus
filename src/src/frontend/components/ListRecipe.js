@@ -18,7 +18,7 @@ const RecipeListScreen = () => {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await fetch('https://api-fit-61np.onrender.com/api/v1/recipe');
+        const response = await fetch('https://api-fit-edsyjosaoq-uc.a.run.app/api/v1/recipe');
         if (!response.ok) {
           throw new Error('Failed to fetch recipes');
         }
@@ -68,7 +68,7 @@ const RecipeListScreen = () => {
                 style={styles.recipeContainer}
                 onPress={() => navigateToDetailReceita(item.id)}
               >
-                <ImageBackground source={{ uri: Buffer.from(item.image, 'base64').toString('utf8') }} style={styles.recipeImage}>
+                <ImageBackground source={{ uri: `data:image/jpeg;base64,${item.image}` }} style={styles.recipeImage}>
                   <View style={styles.recipeContent}>
                     <Text style={styles.recipeTitle}>{item.title}</Text>
                     <Text style={styles.recipeDescription}>{item.description}</Text>
@@ -100,6 +100,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 8,
     marginBottom: 20,
+    marginTop: 35,
     paddingHorizontal: 10,
   },
   title: {

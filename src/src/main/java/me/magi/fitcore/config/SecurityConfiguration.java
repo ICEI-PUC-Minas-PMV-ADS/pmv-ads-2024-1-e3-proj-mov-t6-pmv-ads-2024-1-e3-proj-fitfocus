@@ -52,7 +52,7 @@ public class SecurityConfiguration {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of("**"));
-        configuration.setAllowedMethods(List.of("post", "get"));
+        configuration.setAllowedMethods(List.of("post", "get", "patch"));
         configuration.setAllowedHeaders(List.of("**"));
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

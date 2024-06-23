@@ -12,25 +12,7 @@ const Footer = () => {
     const { objeto } = authState;
     const { onLogout } = useAuth();
 
-    const [isContentCreator, setIsContentCreator] = useState(true);
-
-    useEffect(() => {
-        const checkUserType = async () => {
-            try {
-                // Verifica se o objeto está definido e se possui o atributo cpf
-                console.log(objeto.cpf + "lililili");
-
-                if (objeto.cpf) {
-                    setIsContentCreator(false);
-                }
-            } catch (error) {
-                console.error('Erro ao verificar o tipo de usuário:', error.message);
-            }
-        };
-        console.log(isContentCreator + "lililili");
-
-        checkUserType();
-    }, [objeto]);
+    const [isContentCreator, setIsContentCreator] = useState(objeto.cpf == undefined);
 
     return (
         <View style={styles.footer}>
