@@ -26,7 +26,7 @@ O projeto se trata da criação de um aplicativo que facilite o acesso do públi
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O arquivo .apk da aplicação se encontra --- deste repositório. Basta instalá-lo em seu dispositivo móvel Android.
 
 # Documentação
 
