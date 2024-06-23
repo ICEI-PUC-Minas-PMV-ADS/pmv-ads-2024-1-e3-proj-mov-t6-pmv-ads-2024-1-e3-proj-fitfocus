@@ -16,7 +16,7 @@
 
 1. **Login com Sucesso:**
 
-
+![tela](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/93dfc51d1073c5b62111fe1c9df7f701c9f07504/docs/img/telaInicial.png)
    - **Critérios de Êxito:** 
    ✅O usuário é redirecionado para a página principal, logado no sistema.
 
@@ -86,4 +86,16 @@
 	✅O sistema altera exibe com sucesso a tela de exercicios.
 
 
+### Caso de testes para tela de Perfil
 
+1. **Alterar informações do perfil:**
+
+![exer](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/c80712c5ad3aff13f6facf61ee37a4c841162219/docs/img/attPerfil.png)
+   - **Critérios de Êxito:**
+	✅O sistema altera com sucesso a informação do usuário.
+
+2. **Excluir informações do perfil:**
+
+![exer](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/93dfc51d1073c5b62111fe1c9df7f701c9f07504/docs/img/perfil.png)
+   - **Critérios de Êxito:**
+	✅O sistema exclui com sucesso a informação do usuário.
