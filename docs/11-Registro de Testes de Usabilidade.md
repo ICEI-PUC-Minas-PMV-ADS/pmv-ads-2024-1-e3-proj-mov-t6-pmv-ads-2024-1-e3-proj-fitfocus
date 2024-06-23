@@ -1,45 +1,43 @@
 # Registro de Testes de Usabilidade
 
-### Casos de Teste de Usabilidade para Registro:
+## Lista de participantes 
 
-1. **Facilidade de Preenchimento do Formulário:**
-   - **Descrição:** Testar a facilidade de preenchimento do formulário de registro.
-   - **Passos:**
-     1. O usuário acessa a página de registro.
-     2. O usuário analisa a disposição dos campos e a clareza das instruções.
-     3. O usuário preenche o formulário com informações válidas.
-   - **Avaliação:** O usuário consegue preencher o formulário facilmente? Os campos estão bem organizados e as instruções são claras?
+| Número  | Participante                               | Ocupação               |Usuário                 |
+| ------- | ------------------------------------------ |------------------------|------------------------|
+| 01      | Carlos Magalhaes Resende Junior            | Aux. Admnistrativo     | Criador de conteúdo    |
+| 02      | Thomas Magalhaes Resende                   | Prof. Ed. Fisica       | Consumidor de conteúdo |
 
-2. **Feedback Visual durante o Preenchimento:**
-   - **Descrição:** Testar o feedback visual durante o preenchimento do formulário de registro.
-   - **Passos:**
-     1. O usuário acessa a página de registro.
-     2. O usuário começa a preencher o formulário.
-     3. O sistema fornece feedback visual imediato (por exemplo, mudança de cor dos campos, ícones de validação).
-   - **Avaliação:** O sistema fornece feedback visual claro e imediato durante o preenchimento do formulário?
 
-### Casos de Teste de Usabilidade para Login:
+### Usuario 01
 
-1. **Clareza das Mensagens de Erro:**
-   - **Descrição:** Testar a clareza das mensagens de erro durante o processo de login.
-   - **Passos:**
-     1. O usuário acessa a página de login.
-     2. O usuário tenta fazer login com informações inválidas (email incorreto, senha incorreta).
-     3. O sistema exibe mensagens de erro.
-   - **Avaliação:** As mensagens de erro são claras e informativas? Elas ajudam o usuário a corrigir os problemas?
 
-2. **Navegação Intuitiva após o Login:**
-   - **Descrição:** Testar a navegação intuitiva após o login bem-sucedido.
-   - **Preparação:** Um usuário faz login com sucesso no sistema.
-   - **Passos:**
-     1. O usuário é redirecionado para a página principal/logada do sistema.
-     2. O usuário navega pelo sistema para realizar uma ação específica (por exemplo, visualizar o perfil, fazer uma postagem).
-   - **Avaliação:** A navegação após o login é intuitiva e fácil de entender? O usuário encontra facilmente o que procura?
+| | Itens                                                | Discordo Completamente | Discordo | Não Concordo e Nem Discordo | Concordo | Concordo Completamente |
+|-| ---------------------------------------------------- | ---------- | ---- | --- | ----- | --------- |
+||                                                          | 1          | 2    | 3   | 4     | 5         |
+|1| Eu acho que gostaria de usar esse sistema com frequência.|           |      |     |       |X|
+|2| Eu acho o sistema desnecessariamente complexo.           |X|      |     |       |           |
+|3| Eu achei o sistema fácil de usar.                        |            |      |     |       | X |
+|4| Eu acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos para usar o sistema.| | | | | x |
+|5| Eu acho que as várias funções do sistema estão muito bem integradas. | | | | X | |
+|6| Eu acho que o sistema apresenta muita inconsistência. |X| | | | |
+|7| Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente. | | | | |X|
+|8|Eu achei o sistema atrapalhado de usar. |X| | | | |
+|9| Eu me senti confiante ao usar o sistema. | | | |X| |
+|10| Eu precisei aprender várias coisas novas antes de conseguir usar o sistema. |X| | | | | 
 
-3. **Facilidade de Recuperação de Senha:**
-   - **Descrição:** Testar a facilidade de recuperação de senha.
-   - **Passos:**
-     1. O usuário acessa a página de login.
-     2. O usuário seleciona a opção de recuperação de senha.
-     3. O usuário segue as instruções para recuperar a senha.
-   - **Avaliação:** O processo de recuperação de senha é claro e fácil de entender? O usuário consegue recuperar a senha sem dificuldades?
+### Usuario 02
+
+
+| | Itens                                                | Discordo Completamente | Discordo | Não Concordo e Nem Discordo | Concordo | Concordo Completamente |
+|-| ---------------------------------------------------- | ---------- | ---- | --- | ----- | --------- |
+||                                                          | 1          | 2    | 3   | 4     | 5         |
+|1| Eu acho que gostaria de usar esse sistema com frequência.|           |      |     |       |X|
+|2| Eu acho o sistema desnecessariamente complexo.           |X|      |     |       |           |
+|3| Eu achei o sistema fácil de usar.                        |            |      |     |       | X |
+|4| Eu acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos para usar o sistema.| | | | | x |
+|5| Eu acho que as várias funções do sistema estão muito bem integradas. | | | | |X|
+|6| Eu acho que o sistema apresenta muita inconsistência. |X| | | | |
+|7| Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente. | | | | |X|
+|8|Eu achei o sistema atrapalhado de usar. |X| | | | |
+|9| Eu me senti confiante ao usar o sistema. | | | | |X|
+|10| Eu precisei aprender várias coisas novas antes de conseguir usar o sistema. |X| | | | | 
