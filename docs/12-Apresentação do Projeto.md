@@ -1,12 +1,10 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
-
 Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
 ## Título do Projeto
 
-Nome e marca do projeto
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/e2cdfedce5d2fbea3595fc1b281a4bc6a168a393/docs/img/Logo.png" alt="">
 
 ## Identidade Visual (Marca, Design)
 
@@ -14,14 +12,8 @@ Nome e marca do projeto
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
->
-> 
+<a href= https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/blob/main/presentation/Grupo%2004%20-%20FitFocus.pdf> Clique aqui </a> para acessar os slides de apresentação do projeto.
+
 ## Considerações Finais 
 
 Após uma análise reflexiva do semestre, avaliamos de maneira positiva o projeto desenvolvido e o trabalho realizado pela equipe, pois cumprimos os prazos e entregas, com uma boa qualidade no trabalho realizado. A colaboração e comunicação efetiva entre os membros da equipe foi muito boa, nossa adaptabilidade e capacidade de lidar com adversidades também. Observamos uma curva crescente de aprendizado e uma melhoria contínua ao longo do projeto.
