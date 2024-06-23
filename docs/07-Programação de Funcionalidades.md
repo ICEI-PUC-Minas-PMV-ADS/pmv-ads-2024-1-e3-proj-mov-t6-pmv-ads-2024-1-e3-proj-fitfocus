@@ -4,9 +4,8 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 # Página de Cadastro do Usuário 
 A página de cadastro do usuário apresenta a funcionalidade do usuário de criar uma conta na aplicação.
-| Página de Cadastro | 
- ------------------------------------------|
 
+![cadastro-usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/f915abcc-f062-484a-8d14-2c64dae4fc9c)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos|
@@ -19,9 +18,8 @@ A página de cadastro do usuário apresenta a funcionalidade do usuário de cria
 
 # Página de login 
 A página de Login apresenta a funcionalidade do usuário acessar sua conta.
-| Página de Login | 
- ------------------------------------------|
 
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/a435adcd-d754-4cfa-abcb-2bedc28afd5b)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos |
@@ -34,12 +32,8 @@ A página de Login apresenta a funcionalidade do usuário acessar sua conta.
 
 # Página inicial e Menu Principal 
 A página inicial contém um menu principal que permite a visualização das abas da aplicação.
-| Barra lateral |
- ------------------------------------------| 
- 
-| Tela Inicial |
- ------------------------------------------- |
 
+![pagina-inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/5d191318-e76e-4761-b6f4-03efb956d289)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos |
@@ -60,9 +54,10 @@ A página inicial contém um menu principal que permite a visualização das aba
 
 # Página de Criação de Receitas e Página de Criação de Conteúdos 
 A página de publicação permite ao usuário a criação e postagem de conteúdo na aplicação.
-| Produção e publicação |
- ------------------------------------------|
 
+![criar-receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/354f73fe-ded1-46f6-93c4-16f43bcf2778)
+
+![criar-post](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/54aa2d19-04f6-44b2-b548-850dfb39cdc7)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos |
@@ -85,9 +80,8 @@ A página de publicação permite ao usuário a criação e postagem de conteúd
 
 # Página com a calculadora de IMC 
 A página permite que o usuário faça o cálculo de seu índice de massa corporal.
-| IMC  |
- ------------------------------------------| 
 
+![imc](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/fa4d1d7c-2dd1-4f2c-9941-2cad2477ef6e)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos |
@@ -100,9 +94,8 @@ A página permite que o usuário faça o cálculo de seu índice de massa corpor
 
 # Página de Exercícios Físicos 
 A página de exercícios físicos permite ao usuário a visualização de uma lista de exercícios físicos.
-| Página de Exercícios | 
- ------------------------------------------|
 
+![exercicios](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/6bf2be91-d361-4a7e-b1c8-3e097b4af38b)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos|
@@ -116,7 +109,9 @@ A página de exercícios físicos permite ao usuário a visualização de uma li
 # Página de Lista de Receitas e Posts
 A página de Receitas e Posts permite ao usuário a visualização de uma lista de receitas e posts.
 
- ------------------------------------------|
+![lista-receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/b7c24f75-0199-44c6-bb30-afa67cc5f5c4)
+
+![lista-posts](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t6-pmv-ads-2024-1-e3-proj-fitfocus/assets/126575698/057830b3-173c-46b4-be7e-6273321464a1)
 
 ## Requisito atendido:
 |ID    | Descrição do Requisito  | Artefatos produzidos|
